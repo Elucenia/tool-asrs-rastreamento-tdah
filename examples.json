@@ -1,0 +1,108 @@
+[
+  {
+    "label": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+    "input": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "2",
+      "q6": "2"
+    },
+    "expected": {
+      "raw": {
+        "score": 3
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "2",
+      "q6": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+    "input": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "3",
+      "q5": "1",
+      "q6": "0"
+    },
+    "expected": {
+      "raw": {
+        "score": 4
+      },
+      "level": "high",
+      "verdict": "positivo"
+    },
+    "originalInput": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "3",
+      "q5": "1",
+      "q6": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Todos “raramente”: 0",
+    "input": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "1",
+      "q4": "1",
+      "q5": "1",
+      "q6": "1"
+    },
+    "expected": {
+      "raw": {
+        "score": 0
+      },
+      "level": "low",
+      "verdict": "negativo"
+    },
+    "originalInput": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "1",
+      "q4": "1",
+      "q5": "1",
+      "q6": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Todos “muito frequentemente”: 6",
+    "input": {
+      "q1": "4",
+      "q2": "4",
+      "q3": "4",
+      "q4": "4",
+      "q5": "4",
+      "q6": "4"
+    },
+    "expected": {
+      "raw": {
+        "score": 6
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "q1": "4",
+      "q2": "4",
+      "q3": "4",
+      "q4": "4",
+      "q5": "4",
+      "q6": "4"
+    },
+    "expandedZeroOptions": []
+  }
+]
