@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-asrs-rastreamento-tdah",
   "version": "0.1.0",
-  "description": "ASRS v1.1 (rastreamento de TDAH no adulto) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "ASRS v1.1 (rastreamento de TDAH no adulto) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",

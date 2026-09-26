@@ -1,11 +1,11 @@
-/* tool-asrs-rastreamento-tdah · Elucenia · https://github.com/Elucenia/tool-asrs-rastreamento-tdah
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-asrs-rastreamento-tdah · ELUCENIA · https://github.com/Elucenia/tool-asrs-rastreamento-tdah
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"asrs-rastreamento-tdah","title":"ASRS v1.1 (rastreamento de TDAH no adulto)","fields":[["q1","Nos últimos 6 meses…<br>1. Com que frequência você deixa um projeto pela metade depois de já ter feito as partes mais difíceis?","radio",{"opts":{"0":"Nunca","1":"Raramente","2":"Algumas vezes","3":"Frequentemente","4":"Muito frequentemente"}}],["q2","2. Com que frequência você tem dificuldade para fazer um trabalho que exige organização?","radio",{"opts":{"0":"Nunca","1":"Raramente","2":"Algumas vezes","3":"Frequentemente","4":"Muito frequentemente"}}],["q3","3. Com que frequência você tem dificuldade para lembrar de compromissos ou obrigações?","radio",{"opts":{"0":"Nunca","1":"Raramente","2":"Algumas vezes","3":"Frequentemente","4":"Muito frequentemente"}}],["q4","4. Quando você precisa fazer algo que exige muita concentração, com que frequência você evita ou adia o início?","radio",{"opts":{"0":"Nunca","1":"Raramente","2":"Algumas vezes","3":"Frequentemente","4":"Muito frequentemente"}}],["q5","5. Com que frequência você fica se mexendo na cadeira ou balançando as mãos ou os pés quando precisa ficar sentado(a) por muito tempo?","radio",{"opts":{"0":"Nunca","1":"Raramente","2":"Algumas vezes","3":"Frequentemente","4":"Muito frequentemente"}}],["q6","6. Com que frequência você se sente ativo(a) demais e necessitando fazer coisas, como se estivesse “com um motor ligado”?","radio",{"opts":{"0":"Nunca","1":"Raramente","2":"Algumas vezes","3":"Frequentemente","4":"Muito frequentemente"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
