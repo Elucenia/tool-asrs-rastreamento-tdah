@@ -200,13 +200,9 @@
         }
       ]
     ],
-    "batch": "neuro-mente",
     "kind": "Calculadora",
     "config": null,
-    "areaId": "neuro-mente",
     "clinicalReview": "pending",
-    "sourceReview": "pending",
-    "sourceFile": "app/content/ferramentas/neuro-mente.php",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -226,11 +222,6 @@
     "status": "needs-review",
     "reason": "Revisão documental e clínica independente pendente.",
     "clinicalValidation": "not-performed"
-  },
-  "sourceFile": {
-    "path": "app/content/ferramentas/neuro-mente.php",
-    "sha256": "3ce3a7987a3ec63938e5f21d8d24ec7f7f8880c1b54458ef7046807a89221cac",
-    "bytes": 102818
   },
   "clinicalValidation": "not-performed"
 }
