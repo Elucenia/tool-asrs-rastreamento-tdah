@@ -1,0 +1,38 @@
+{
+  "id": "asrs-rastreamento-tdah",
+  "cases": 4,
+  "rights": {
+    "source": "https://license.tov.med.nyu.edu/product/asrs6Qscreener",
+    "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+    "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+    "permitted": "The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.",
+    "officialPublishedQuestionnaireLocales": [
+      "pt-BR",
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "ar",
+      "zh",
+      "ja"
+    ],
+    "officialHindiTextAvailable": false,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "electronicConversionLiteralPublishedText": true
+  },
+  "historicalMathBodyEvidence": "evidence/historical-r6-math-body.json",
+  "currentWholeFileHttp": "pending R7",
+  "sourceUIpeer": "evidence/current-source-ui-peer.json",
+  "officialForms": 9,
+  "requestedInterfaceLocales": 10,
+  "officialHindiTextAvailable": false,
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "contractHashCorrection": {
+    "file": "reports/review-20261005-completion/asrs-contract-hash-correction-r2.json",
+    "bytes": 11192,
+    "sha256": "1047492058121e89b05af87226e3c74066548d86c427b090dd1776a446271c2e"
+  }
+}

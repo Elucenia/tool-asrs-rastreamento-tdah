@@ -1,6 +1,17 @@
 [
   {
-    "label": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+    "id": "asrs-rastreamento-tdah",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+    "originalInput": {
+      "q1": "2",
+      "q2": "2",
+      "q3": "2",
+      "q4": "2",
+      "q5": "2",
+      "q6": "2"
+    },
     "input": {
       "q1": "2",
       "q2": "2",
@@ -15,18 +26,38 @@
       },
       "level": "low"
     },
+    "recordedResult": {
+      "main": [
+        "3",
+        "de 6 itens"
+      ],
+      "label": "Itens na faixa sombreada",
+      "raw": {
+        "score": 3
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "asrs-rastreamento-tdah",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
     "originalInput": {
       "q1": "2",
       "q2": "2",
       "q3": "2",
-      "q4": "2",
-      "q5": "2",
-      "q6": "2"
+      "q4": "3",
+      "q5": "1",
+      "q6": "0"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
     "input": {
       "q1": "2",
       "q2": "2",
@@ -42,18 +73,38 @@
       "level": "high",
       "verdict": "positivo"
     },
-    "originalInput": {
-      "q1": "2",
-      "q2": "2",
-      "q3": "2",
-      "q4": "3",
-      "q5": "1",
-      "q6": "0"
+    "recordedResult": {
+      "main": [
+        "4",
+        "de 6 itens"
+      ],
+      "label": "Itens na faixa sombreada",
+      "raw": {
+        "score": 4
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Todos “raramente”: 0",
+    "id": "asrs-rastreamento-tdah",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Todos “raramente”: 0",
+    "originalInput": {
+      "q1": "1",
+      "q2": "1",
+      "q3": "1",
+      "q4": "1",
+      "q5": "1",
+      "q6": "1"
+    },
     "input": {
       "q1": "1",
       "q2": "1",
@@ -69,18 +120,38 @@
       "level": "low",
       "verdict": "negativo"
     },
-    "originalInput": {
-      "q1": "1",
-      "q2": "1",
-      "q3": "1",
-      "q4": "1",
-      "q5": "1",
-      "q6": "1"
+    "recordedResult": {
+      "main": [
+        "0",
+        "de 6 itens"
+      ],
+      "label": "Itens na faixa sombreada",
+      "raw": {
+        "score": 0
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Todos “muito frequentemente”: 6",
+    "id": "asrs-rastreamento-tdah",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Todos “muito frequentemente”: 6",
+    "originalInput": {
+      "q1": "4",
+      "q2": "4",
+      "q3": "4",
+      "q4": "4",
+      "q5": "4",
+      "q6": "4"
+    },
     "input": {
       "q1": "4",
       "q2": "4",
@@ -95,14 +166,23 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "q1": "4",
-      "q2": "4",
-      "q3": "4",
-      "q4": "4",
-      "q5": "4",
-      "q6": "4"
+    "recordedResult": {
+      "main": [
+        "6",
+        "de 6 itens"
+      ],
+      "label": "Itens na faixa sombreada",
+      "raw": {
+        "score": 6
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

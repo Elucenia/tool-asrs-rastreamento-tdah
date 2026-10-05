@@ -1,0 +1,31 @@
+{
+  "sourceIntegration": {
+    "file": "reports/review-20261005-completion/asrs-official-nine-integration-r1.json",
+    "bytes": 25330,
+    "sha256": "9218f30002b7c7c453980fc1c7ca7673c8ab29d2f11c0ab115695d1d7c63582d"
+  },
+  "metadataMirror": {
+    "file": "reports/review-20261005-completion/asrs-runtime-metadata-mirror-r1.json",
+    "bytes": 1982,
+    "sha256": "b395f392a5ce042af0546e5653b4ceeef3982c83de2420086222d5500e7e919f"
+  },
+  "sourceSSRPeer": {
+    "file": "reports/review-20261005-completion/asrs-official-app-components-peer-r3.json",
+    "bytes": 779850,
+    "sha256": "009a02ef2f9e3fa12a34e0e773758ed6f9e2763e7d816d3beea7b93b1f5f975f"
+  },
+  "scope": "Current TSX components rendered through React SSR and actual event functions invoked with explicit hooks/DOM/FormData/fetch doubles. Request bodies are captured without a network call, and the source-frozen local engine supplies synthetic result fixtures. Static element/CSS evidence is not real browser layout, native validity, accessibility audit, official instrument/language equivalence or clinical approval.",
+  "summary": {
+    "checks": 5646,
+    "passed": 5646,
+    "failed": 0,
+    "appLocaleVariants": 20,
+    "mathImplementations": 223,
+    "mathematicalModulesUnchanged": 223,
+    "metadataOnlyExceptions": 1,
+    "officialPublishedInstrumentLanguages": 9,
+    "HindiInstrument": "English fallback explicitly marked; no approved Hindi source",
+    "networkRequests": 0,
+    "browserAutomation": false
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "schema": "elucenia-literal-NYU-published-nine-source-forms",
+  "records": {
+    "pt-BR": {
+      "locale": "pt-BR",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/pt-BR.pdf",
+      "sourcePdfSha256": "aa4ed92ab7342d71a39524d1b7504d328050750a0bf002a19c6ad35b614fd994",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5357",
+      "questionnairePageOneBased": 3,
+      "questions": [
+        "1. Com que freqüência você sente dificuldade para finalizar os últimos detalhes de uma tarefa, depois de já ter feito as partes mais complicadas?",
+        "2. Com que freqüência você sente dificuldade para manter as coisas em ordem quando precisa realizar uma tarefa que exige organização?",
+        "3. Com que freqüência você tem problemas para se lembrar de compromissos ou obrigações?",
+        "4. Quando precisa realizar uma tarefa que exige muita concentração, com que freqüência você evita ou atrasa o seu início?",
+        "5. Com que freqüência você fica se mexendo na cadeira ou balançando as mãos ou os pés quando precisa ficar sentado(a) durante um longo período de tempo?",
+        "6. Com que freqüência você se sente excessivamente ativo(a) e compelido(a) a fazer coisas, como se fosse conduzido(a) por um motor?"
+      ],
+      "options": {
+        "0": "Nunca",
+        "1": "Raramente",
+        "2": "Algumas vezes",
+        "3": "Freqüentemente",
+        "4": "Muito freqüentemente"
+      },
+      "scoringInstruction": "Some o número de respostas que aparecem na área com sombreado mais escuro. Quatro (4) ou mais respostas indicam que seus sintomas podem ser compatíveis com o diagnóstico de TDAH em Adultos. Nesse caso, poderá ser benéfico conversar com seu médico sobre a necessidade de uma avaliação clínica.",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos Versão 1.1 (ASRS-V1.1)",
+      "instructions": "Assinale a alternativa que melhor descreve a forma como você tem se sentido e comportado nos últimos 6 meses. Por favor, entregue o questionário preenchido ao seu profissional de saúde durante a próxima consulta para discutir os resultados obtidos.",
+      "ageStatement": "Esta Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos V1.1 (ASRS-V1.1) destina-se a indivíduos com idade igual ou superior a 18 anos.",
+      "dateLabel": "Data",
+      "acknowledgements": "Translation of this document was performed by Maria Carmen Viana, MD, PhD, Department of Internal Medicine, Santa Casa Medical School of Vitória, Brazil.",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "pt-BR",
+        "sourcePdfSha256": "aa4ed92ab7342d71a39524d1b7504d328050750a0bf002a19c6ad35b614fd994"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "pt-BR",
+        "japaneseOperationalContextIsSeparate": false
+      }
+    },
+    "en": {
+      "locale": "en",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/en.pdf",
+      "sourcePdfSha256": "3383491ecbbd65beb79b97c86a49e72fac8a5fdf8c40d94bfe58ed9189bdfee4",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5372",
+      "questionnairePageOneBased": 2,
+      "questions": [
+        "1. How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?",
+        "2. How often do you have difficulty getting things in order when you have to do a task that requires organization?",
+        "3. How often do you have problems remembering appointments or obligations?",
+        "4. When you have a task that requires a lot of thought, how often do you avoid or delay getting started?",
+        "5. How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?",
+        "6. How often do you feel overly active and compelled to do things, like you were driven by a motor?"
+      ],
+      "options": {
+        "0": "Never",
+        "1": "Rarely",
+        "2": "Sometimes",
+        "3": "Often",
+        "4": "Very Often"
+      },
+      "scoringInstruction": "Add the number of checkmarks that appear in the darkly shaded area. Four (4) or more checkmarks indicate that your symptoms may be consistent with Adult ADHD. It may be beneficial for you to talk with your healthcare provider about an evaluation.",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "Adult Self-Report Scale-V1.1 (ASRS-V1.1) Screener",
+      "instructions": "Check the box that best describes how you have felt and conducted yourself over the past 6 months. Please give the completed questionnaire to your healthcare professional during your next appointment to discuss the results.",
+      "ageStatement": "This Adult Self-Report Scale-V1.1 (ASRS-V1.1) Screener is intended for people aged 18 years or older.",
+      "dateLabel": "Date",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "en",
+        "sourcePdfSha256": "3383491ecbbd65beb79b97c86a49e72fac8a5fdf8c40d94bfe58ed9189bdfee4"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "en",
+        "japaneseOperationalContextIsSeparate": false
+      }
+    },
+    "es": {
+      "locale": "es",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/es.pdf",
+      "sourcePdfSha256": "d10ff6a3a29e3055fc0802b8368aea38ef786c51bdbbe50366a9cd1d92c800a3",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5361",
+      "questionnairePageOneBased": 2,
+      "questions": [
+        "1. ¿Con qué frecuencia tiene usted dificultad para acabar los detalles finales de un proyecto, una vez que ha terminado con las partes difíciles?",
+        "2. ¿Con qué frecuencia tiene usted dificultad para ordenar las cosas cuando está realizando una tarea que requiere organización?",
+        "3. ¿Con qué frecuencia tiene usted problemas para recordar citas u obligaciones?",
+        "4. Cuando tiene que realizar una tarea que requiere pensar mucho, ¿con qué frecuencia evita o retrasa empezarla?",
+        "5. ¿Con qué frecuencia mueve continuamente o retuerce las manos o los pies cuando tiene que permanecer sentado por mucho tiempo?",
+        "6. ¿Con qué frecuencia se siente demasiado activo e impulsado a hacer cosas, como si lo empujase un motor?"
+      ],
+      "options": {
+        "0": "Nunca",
+        "1": "Rara vez",
+        "2": "A veces",
+        "3": "A menudo",
+        "4": "Muy a menudo"
+      },
+      "scoringInstruction": "Sume el número de marcas que hizo en la zona sombreada. Cuatro (4) marcas o más indican que sus síntomas pueden ser compatibles con los del TDAH del adulto. Podría ser conveniente para usted hablar con su médico acerca de una evaluación.",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "Cuestionario autoinformado de cribado del adulto-V1.1 (ASRS-V1.1)",
+      "instructions": "Marque la casilla que mejor describe la manera en que se ha sentido y comportado en los últimos 6 meses. Por favor, entregue el cuestionario completado a su médico durante su próxima visita para discutir los resultados.",
+      "ageStatement": "Este cuestionario autoinformado de cribado del adulto-V1.1 (ASRS-V1.1) es para individuos mayores de 18 años.",
+      "dateLabel": "Fecha",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "es",
+        "sourcePdfSha256": "d10ff6a3a29e3055fc0802b8368aea38ef786c51bdbbe50366a9cd1d92c800a3"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "es",
+        "japaneseOperationalContextIsSeparate": false
+      }
+    },
+    "fr": {
+      "locale": "fr",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/fr.pdf",
+      "sourcePdfSha256": "1edff1353dc5c87fcaab8eed847dd4c78ffdf9ca1c7ae86c7894be5447df4973",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5370",
+      "questionnairePageOneBased": 2,
+      "questions": [
+        "1. A quelle fréquence vous arrive-t-il d'avoir des difficultés à finaliser les derniers détails d'un projet une fois que les parties les plus stimulantes ont été faites ?",
+        "2. A quelle fréquence vous arrive-t-il d'avoir des difficultés à mettre les choses en ordre lorsque vous devez faire quelque chose qui demande de l'organisation ?",
+        "3. A quelle fréquence vous arrive-t-il d'avoir des difficultés à vous rappeler vos rendez-vous ou vos obligations ?",
+        "4. Quand vous devez faire quelque chose qui demande beaucoup de réflexion, à quelle fréquence vous arrive-t-il d'éviter de le faire ou de le remettre à plus tard ?",
+        "5. A quelle fréquence vous arrive-t-il de remuer ou de tortiller les mains ou les pieds lorsque vous devez rester assis pendant une période prolongée ?",
+        "6. A quelle fréquence vous arrive-t-il de vous sentir excessivement actif et contraint de faire quelque chose, comme si vous étiez entraîné malgré vous par un moteur ?"
+      ],
+      "options": {
+        "0": "Jamais",
+        "1": "Rarement",
+        "2": "Quelquefois",
+        "3": "Souvent",
+        "4": "Très souvent"
+      },
+      "scoringInstruction": "Additionnez le nombre de cases très ombrées que vous avez cochées. Quatre (4) cases cochées ou plus indiquent que les symptômes que vous présentez peuvent correspondre à ceux des troubles déficitaires de l’attention avec hyperactivité de l’adulte. Vous devriez en parler avec votre médecin et demander une évaluation.",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "Test de dépistage avec échelle d’auto-évaluation V1.1 (ASRS-V1.1)",
+      "instructions": "Cochez la case qui décrit le mieux ce que vous avez ressenti et comment vous vous êtes comporté au cours des 6 derniers mois. Veuillez remettre le questionnaire rempli à votre médecin ou un autre professionnel lors de votre prochain rendez-vous afin d’en discuter les résultats.",
+      "ageStatement": "Le test de dépistage avec échelle d’auto-évaluation V1.1 (ASRS-V1.1) est destiné aux personnes âgées de 18 ans et plus.",
+      "dateLabel": "Date",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "fr",
+        "sourcePdfSha256": "1edff1353dc5c87fcaab8eed847dd4c78ffdf9ca1c7ae86c7894be5447df4973"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "fr",
+        "japaneseOperationalContextIsSeparate": false
+      }
+    },
+    "de": {
+      "locale": "de",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/de.pdf",
+      "sourcePdfSha256": "61910c7e3aae09a25827e06ae38776dc516295219373cf93fa07c29945783ef1",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5363",
+      "questionnairePageOneBased": 2,
+      "questions": [
+        "1. Wie oft haben Sie Probleme, die letzten Feinheiten einer Arbeit zum Abschluss zu bringen, nachdem Sie die wesentlichen Punkte erledigt haben?",
+        "2. Wie oft fällt es Ihnen schwer, Dinge in die Reihe zu bekommen, wenn Sie an einer Aufgabe arbeiten, bei der Organisation gefragt ist?",
+        "3. Wie oft haben Sie Probleme, sich an Termine oder Verabredungen zu erinnern?",
+        "4. Wie oft vermeiden Sie oder verzögern Sie, die Aufgabe zu beginnen, wenn Sie vor einer Aufgabe stehen, bei der sehr viel Denkvermögen gefragt ist?",
+        "5. Wie oft sind Ihre Hände bzw. Füße bei langem Sitzen in Bewegung?",
+        "6. Wie oft fühlen Sie sich übermäßig aktiv und verspüren den Drang Dinge zu tun, als ob Sie von einem Motor angetrieben würden?"
+      ],
+      "options": {
+        "0": "Niemals",
+        "1": "Selten",
+        "2": "Manchmal",
+        "3": "Oft",
+        "4": "Sehr oft"
+      },
+      "scoringInstruction": "Zählen Sie die Anzahl der Häkchen zusammen, die im dunklen Bereich erscheinen. Mindestens vier (4) Häkchen deuten darauf hin, dass Ihre Symptome der Erwachsenen-ADHS entsprechen. Es könnte für Sie von Nutzen sein, mit Ihrem Arzt über eine Beurteilung zu sprechen.",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "Screening-Test mit Selbstbeurteilungs-Skala für Erwachsene V1.1 (ASRS-V1.1)",
+      "instructions": "Markieren Sie das Kästchen, das am besten beschreibt, wie Sie sich in den letzten 6 Monaten gefühlt und sich benommen haben. Geben Sie bitte beim nächsten Arzttermin den ausgefüllten Fragebogen der medizinischen Fachkraft, um die Ergebnisse zu besprechen.",
+      "ageStatement": "Dieser Screening-Test mit Selbstbeurteilungs-Skala für Erwachsene V1.1 (ASRS-V1.1) ist für Personen ab 18 Jahren vorgesehen.",
+      "dateLabel": "Datum",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "de",
+        "sourcePdfSha256": "61910c7e3aae09a25827e06ae38776dc516295219373cf93fa07c29945783ef1"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "de",
+        "japaneseOperationalContextIsSeparate": false
+      }
+    },
+    "it": {
+      "locale": "it",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/it.pdf",
+      "sourcePdfSha256": "485f136d3b24fc0a04ce000b53b65cfa636c716a518fa8cf9c2c514944aa679a",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5375",
+      "questionnairePageOneBased": 3,
+      "questions": [
+        "1. Con che frequenza ha difficoltà a concludere i dettagli finali di un progetto, una volta che le parti più stimolanti sono state fatte?",
+        "2. Con che frequenza ha difficoltà a mettere le cose in ordine quando deve svolgere un compito che richiede organizzazione?",
+        "3. Con che frequenza ha problemi a ricordarsi gli appuntamenti o gli impegni?",
+        "4. Quando ha un compito che richiede un sacco di concentrazione, con che frequenza evita o ritarda l’inizio?",
+        "5. Con che frequenza agita o si contorce le mani o i piedi quando deve stare seduto/a per molto tempo?",
+        "6. Con che frequenza si sente eccessivamente attivo/a e costretto a fare delle cose, come se fosse azionato/a da un motore?"
+      ],
+      "options": {
+        "0": "Mai",
+        "1": "Raramente",
+        "2": "Talvolta",
+        "3": "Spesso",
+        "4": "Molto spesso"
+      },
+      "scoringInstruction": "Sommi il numero di segni che compaiono nell’area grigio scuro. Quattro (4) o più segni indicano che i suoi sintomi possono essere compatibili con il DDAI Adulto. Può risultare utile che lei discuta con il suo professionista della salute la possibilità di una valutazione.",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "Screener della Scala Autosomministrata per l’Adulto-V1.1 (ASRS-V1.1)",
+      "instructions": "Segni la casella che descrive meglio come si è sentito/a e comportato/a nel corso degli ultimi 6 mesi. La preghiamo di consegnare il questionario completata al suo professionista della salute al prossimo appuntamento per discutere i risultati.",
+      "ageStatement": "Questo screener della Scala Autosomministrata per l’Adulto-V1.1 (ASRS-V1.1) è pensato per persone di 18 anni o più.",
+      "dateLabel": "Data",
+      "acknowledgements": "Translation and expert review of this document was carried out by the following team members from Vita-Salute San Raffaele University and San Raffaele Turro Hospital, Milan, Italy: Andrea Fossati, MD, PhD, Antonella Somma, PhD, Serena Borroni, PsyD and Davide Carlotta, MSc.",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "it",
+        "sourcePdfSha256": "485f136d3b24fc0a04ce000b53b65cfa636c716a518fa8cf9c2c514944aa679a"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "it",
+        "japaneseOperationalContextIsSeparate": false
+      }
+    },
+    "ar": {
+      "title": "مقياس التقرير الذاتى المسحى لاضطراب نقص الانتباه وفرط الحركة للراشدين",
+      "headingLines": [
+        "مقياس التقرير الذاتى المسحى لاضطراب نقص الانتباه وفرط الحركة للراشدين منظمة الصحة العالمية 2",
+        "من المقابلة التشخيصية الدولية المركبة لمنظمة الصحة العالمية",
+        "النسخة الأولى ( ايه اس ار اس- فى 1,1)"
+      ],
+      "instructions": "ضع علامة فى المربع الذى يمثل أفضل وصف لكيف كان شعورك وحالك على مدى الـ ٦ اشهر الماضية يرجى اعطاء الاستبيان بعد ملئه الى طبيبك (اخصائى الرعاية الصحيةالخاص بك) خلال زيارتك القادمة لمناقشة النتائج",
+      "ageStatement": "مقياس التقرير الذاتى المسحى لاضطراب نقص الانتباه وفرط الحركة للراشدين (النسخة الاولى) يستهدف الاشخاص من الفئة العمرية 18 سنة وما فوقها",
+      "dateLabel": "التاريخ:",
+      "questions": [
+        "1 - الى اى مدى تواجه مشكلة فى اختتام التفاصيل النهائية لمشروع ، بمجرد انجاز أجزاءه التي بها تحدى؟",
+        "2 - الى اى مدى لديك صعوبة فى ترتيب الاشياء عندما يكون عليك مهمة تتطلب تنظيم ؟",
+        "3 - الى اى مدى لديك مشاكل فى تذكر المواعيد أو الالتزامات ؟",
+        "4 - عندما يكون لديك مهمة تتطلب الكثير من التفكير ، الى أى مدى تتجنب أو تأخر البدء فيها؟",
+        "5 - الى أى مدى ما تتململ أوتتلوى يديك أوقدميك عندما يكون عليك الجلوس لفترة طويلة ؟",
+        "6 - الى اى مدى تشعر بنشاط مفرط وانك مضطر أن تفعل أشياء ، كما لو كنت مدفوع بواسطة محرك ؟"
+      ],
+      "options": {
+        "0": "ابدا",
+        "1": "نادرا",
+        "2": "احيانا",
+        "3": "كثيرا",
+        "4": "كثيرا جدا"
+      },
+      "scoringInstruction": "إجمع عدد العلامات التي تظهر في المنطقة المظللة بلون غامق, أربع (4) علامات أو أكثر تشير إلي أن الأعراض قد تكون متسقة مع إضطراب نقص الإنتباه وفرط الحركة للراشدين وقد يكون من المفيد أن تتحدث مع طبيبك(مقدم الرعاية الصحية) من أجل تقييم إكلينيكي.",
+      "acknowledgements": "Translation of this document was performed by Suaad Sayed Moussa, MD, Professor of Psychiatry, Kasr Alaini Medical School – Cairo University; and Muhammad Nashaat, MSc, Assistant Lecturer of Psychiatry, Kasr Alaini Medical School – Cairo University.",
+      "questionnairePageOneBased": 4,
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": false,
+        "sourcePresentation": "unshaded",
+        "transcriptionMethod": "Manual visual transcription of 240dpi Poppler render; PDF ToUnicode is corrupt",
+        "independentPeerPending": true
+      },
+      "locale": "ar",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/ar.pdf",
+      "sourcePdfSha256": "5e35b05a79b4f725487caf6fee22b9a97bf4df4a993a3488291027f78e0febba",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5376",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "primaryExtractionUnreliable": true,
+      "transcriptionIndependentPeerPending": false,
+      "sourceMatrixMode": "clinician-unshaded",
+      "thresholdSource": {
+        "locale": "en",
+        "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5372",
+        "sourcePdfSha256": "3383491ecbbd65beb79b97c86a49e72fac8a5fdf8c40d94bfe58ed9189bdfee4",
+        "scope": "Original English dark-cell threshold logic, separately documented; not claimed as visible shading in the Arabic PDF"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "ar",
+        "japaneseOperationalContextIsSeparate": false
+      },
+      "visualPeerReceipt": {
+        "path": "reports/review-20261005-completion/asrs-ar-primary-visual-peer-r1.json",
+        "sha256": "8cec998120265b6772b53353f52b911e001fc1ca5abe001883455a13b418236f",
+        "scope": "Internal model visual transcription comparison, not professional language or clinical review"
+      }
+    },
+    "zh": {
+      "locale": "zh",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/zh.pdf",
+      "sourcePdfSha256": "1627502dda2e5b3eb1e400f496dd62bafdcf9f9244cb4b2c616dac257cbdefb3",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5362",
+      "questionnairePageOneBased": 2,
+      "questions": [
+        "1. 在完成其中最艰难的部分之后，您在处理某一项目的最后细节时是否常常有困难？",
+        "2. 您在完成具有组织性质的任务时，是否时常有困难把事情整理安排好？",
+        "3. 您是否时常有困难记住约会或应做的事？",
+        "4. 如果一件事需要多动脑筋，您是否常常躲避或推延开始做它？",
+        "5. 如果您不得不长时间坐下，您是否常常蠕动不安或者手脚动个不停？",
+        "6. 您是否时常感到过度活跃，强迫自己做事，就像上了发条的机器?"
+      ],
+      "options": {
+        "0": "从不",
+        "1": "很少",
+        "2": "有时",
+        "3": "经常",
+        "4": "很经常"
+      },
+      "scoringInstruction": "请将暗影区内出现的选项数目相加。4个或4个以上选项说明您的症状与成年多动症相符。您最好去和保健医生谈谈，安排作一次检查。",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "成人自测计分1.1版(ASRS-V1.1) 筛检表",
+      "instructions": "请勾选能够最佳说明您在过去6个月内的感受和行为的选框，并在下一次约谈时将填完的问卷交给您的专业保健医生，以便探讨结果。",
+      "ageStatement": "此份成人自测计分1.1版(ASRS-V1.1) 筛检表仅适用于年满18岁以上人士。",
+      "dateLabel": "日期",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "zh",
+        "sourcePdfSha256": "1627502dda2e5b3eb1e400f496dd62bafdcf9f9244cb4b2c616dac257cbdefb3"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "zh",
+        "japaneseOperationalContextIsSeparate": false
+      }
+    },
+    "ja": {
+      "locale": "ja",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/ja.pdf",
+      "sourcePdfSha256": "e85372f976229efe0caea71bca051af097a91a17f808d22bd54018f093ffa3da",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5374",
+      "questionnairePageOneBased": 3,
+      "questions": [
+        "1. 物事を行うにあたって、難所は乗り越えたのに、詰めが甘くて仕上げるのが困難だったことが、どのくらいの頻度でありますか。",
+        "2. 計画性を要する作業を行なう際に、作業を順序だてるのが困難だったことが、どのくらいの頻度でありますか。",
+        "3. 約束や、しなければいけない用事を忘れたことが、どのくらいの頻度でありますか。",
+        "4. じっくりと考える必要のある課題に取り掛かるのを避けたり、遅らせたりすることが、どのくらいの頻度でありますか。",
+        "5. 長時間座っていなければならない時に、手足をそわそわと動かしたり、もぞもぞしたりすることが、どのくらいの頻度でありますか。",
+        "6. まるで何かに駆り立てられるかのように過度に活動的になったり、何かせずにいられなくなることが、どのくらいの頻度でありますか。"
+      ],
+      "options": {
+        "0": "全くない",
+        "1": "めったにない",
+        "2": "時々",
+        "3": "頻繁",
+        "4": "非常に頻繁"
+      },
+      "scoringInstruction": "グレーで色づけした部分にチェックがいくつあるかを数えます。４つ以上チェックがついている場合、あなたの症状は成人期のADHDに該当している可能性があります。医療の専門機関でさらなる評価を受けることをお勧めします。",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "成人期のADHDの自己記入式スクリーニング(ASRS-V1.1)",
+      "instructions": null,
+      "instructionNotPresentInPublishedPdf": true,
+      "ageStatement": "この Adult Self-Report Scale-V1.1 (ASRS-V1.1) Screener （成人期のADHD自己記入式スクリーニング）は18歳以上を対象としています。",
+      "dateLabel": "日付",
+      "acknowledgements": "Translation of this document was performed by Toshinobu Takeda, MD, PhD, of Ryukoku University, Faculty of Letters, Kyoto, Japan.",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "ja",
+        "sourcePdfSha256": "e85372f976229efe0caea71bca051af097a91a17f808d22bd54018f093ffa3da"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": false,
+        "sourceLocale": "en",
+        "japaneseOperationalContextIsSeparate": true
+      }
+    }
+  },
+  "conditions": {
+    "source": "https://license.tov.med.nyu.edu/product/asrs6Qscreener",
+    "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+    "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+    "permitted": "The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.",
+    "officialPublishedQuestionnaireLocales": [
+      "pt-BR",
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "ar",
+      "zh",
+      "ja"
+    ],
+    "officialHindiTextAvailable": false,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "electronicConversionLiteralPublishedText": true
+  },
+  "sourceRecord": {
+    "file": "reports/review-20261005-completion/asrs-official-nine-form-record-r3.json",
+    "bytes": 38663,
+    "sha256": "b03cb78e08e176c1b477ca11a2dd6e467ee6d7e30739a10c7b7284a33ac449db"
+  },
+  "arVisualPeer": {
+    "file": "reports/review-20261005-completion/asrs-ar-primary-visual-peer-r1.json",
+    "bytes": 2349,
+    "sha256": "8cec998120265b6772b53353f52b911e001fc1ca5abe001883455a13b418236f"
+  },
+  "scope": "Exact published text, whitespace-only line wrapping. Model extraction/visual comparison is not independent clinical or professional language review."
+}

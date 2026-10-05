@@ -1,0 +1,44 @@
+{
+  "schema": "elucenia-ASRS-historical-R6-math-body-only-not-current-HTTP",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "currentAdapter": {
+    "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+    "bytes": 6176,
+    "sha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb"
+  },
+  "bodyPreservation": [
+    {
+      "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+      "oldWholeSha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+      "newWholeSha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb",
+      "oldBodySha256": "ab5667165e66f5deb98721a0f929328c1ff5bed740287e4f62394fa1410c1dad",
+      "newBodySha256": "ab5667165e66f5deb98721a0f929328c1ff5bed740287e4f62394fa1410c1dad",
+      "bodyByteExact": true,
+      "metadataOnly": true
+    },
+    {
+      "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+      "oldWholeSha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+      "newWholeSha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb",
+      "oldBodySha256": "ab5667165e66f5deb98721a0f929328c1ff5bed740287e4f62394fa1410c1dad",
+      "newBodySha256": "ab5667165e66f5deb98721a0f929328c1ff5bed740287e4f62394fa1410c1dad",
+      "bodyByteExact": true,
+      "metadataOnly": true
+    },
+    {
+      "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+      "oldWholeSha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+      "newWholeSha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb",
+      "oldBodySha256": "ab5667165e66f5deb98721a0f929328c1ff5bed740287e4f62394fa1410c1dad",
+      "newBodySha256": "ab5667165e66f5deb98721a0f929328c1ff5bed740287e4f62394fa1410c1dad",
+      "bodyByteExact": true,
+      "metadataOnly": true
+    }
+  ],
+  "currentWholeByteHttpProof": "Pending R7 HTTP execution of current metadata-bound adapter",
+  "scope": "The mathematical body from const window= is identical. Current whole adapter bytes differ in literal question/response metadata; R6 is historical and is not represented as current whole-file HTTP proof."
+}

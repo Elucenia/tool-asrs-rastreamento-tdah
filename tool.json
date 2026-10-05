@@ -3,121 +3,149 @@
     "id": "asrs-rastreamento-tdah",
     "title": "ASRS v1.1 (rastreamento de TDAH no adulto)",
     "short": "As 6 perguntas de rastreamento de TDAH da OMS",
+    "desc": "ASRS v1.1 da OMS, parte A (6 perguntas), versão brasileira: rastreamento de transtorno de déficit de atenção e hiperatividade (TDAH) em adultos.",
+    "lead": "As seis perguntas da parte A da escala de autorrelato da OMS são as mais preditivas de TDAH no adulto. Servem para rastrear, não para diagnosticar.",
+    "kind": "Calculadora",
     "spec": [
       "psiquiatria",
       "neurologia",
       "medicina-de-familia-e-comunidade"
     ],
-    "desc": "ASRS v1.1 da OMS, parte A (6 perguntas), versão brasileira: rastreamento de transtorno de déficit de atenção e hiperatividade (TDAH) em adultos.",
-    "lead": "As seis perguntas da parte A da escala de autorrelato da OMS são as mais preditivas de TDAH no adulto. Servem para rastrear, não para diagnosticar.",
     "fields": [
       [
         "q1",
-        "Nos últimos 6 meses…<br>1. Com que frequência você deixa um projeto pela metade depois de já ter feito as partes mais difíceis?",
+        "1. Com que freqüência você sente dificuldade para finalizar os últimos detalhes de uma tarefa, depois de já ter feito as partes mais complicadas?",
         "radio",
         {
           "opts": {
             "0": "Nunca",
             "1": "Raramente",
             "2": "Algumas vezes",
-            "3": "Frequentemente",
-            "4": "Muito frequentemente"
+            "3": "Freqüentemente",
+            "4": "Muito freqüentemente"
+          },
+          "displayLocale": "pt-BR",
+          "optionLocales": {
+            "0": "pt-BR",
+            "1": "pt-BR",
+            "2": "pt-BR",
+            "3": "pt-BR",
+            "4": "pt-BR"
           }
         }
       ],
       [
         "q2",
-        "2. Com que frequência você tem dificuldade para fazer um trabalho que exige organização?",
+        "2. Com que freqüência você sente dificuldade para manter as coisas em ordem quando precisa realizar uma tarefa que exige organização?",
         "radio",
         {
           "opts": {
             "0": "Nunca",
             "1": "Raramente",
             "2": "Algumas vezes",
-            "3": "Frequentemente",
-            "4": "Muito frequentemente"
+            "3": "Freqüentemente",
+            "4": "Muito freqüentemente"
+          },
+          "displayLocale": "pt-BR",
+          "optionLocales": {
+            "0": "pt-BR",
+            "1": "pt-BR",
+            "2": "pt-BR",
+            "3": "pt-BR",
+            "4": "pt-BR"
           }
         }
       ],
       [
         "q3",
-        "3. Com que frequência você tem dificuldade para lembrar de compromissos ou obrigações?",
+        "3. Com que freqüência você tem problemas para se lembrar de compromissos ou obrigações?",
         "radio",
         {
           "opts": {
             "0": "Nunca",
             "1": "Raramente",
             "2": "Algumas vezes",
-            "3": "Frequentemente",
-            "4": "Muito frequentemente"
+            "3": "Freqüentemente",
+            "4": "Muito freqüentemente"
+          },
+          "displayLocale": "pt-BR",
+          "optionLocales": {
+            "0": "pt-BR",
+            "1": "pt-BR",
+            "2": "pt-BR",
+            "3": "pt-BR",
+            "4": "pt-BR"
           }
         }
       ],
       [
         "q4",
-        "4. Quando você precisa fazer algo que exige muita concentração, com que frequência você evita ou adia o início?",
+        "4. Quando precisa realizar uma tarefa que exige muita concentração, com que freqüência você evita ou atrasa o seu início?",
         "radio",
         {
           "opts": {
             "0": "Nunca",
             "1": "Raramente",
             "2": "Algumas vezes",
-            "3": "Frequentemente",
-            "4": "Muito frequentemente"
+            "3": "Freqüentemente",
+            "4": "Muito freqüentemente"
+          },
+          "displayLocale": "pt-BR",
+          "optionLocales": {
+            "0": "pt-BR",
+            "1": "pt-BR",
+            "2": "pt-BR",
+            "3": "pt-BR",
+            "4": "pt-BR"
           }
         }
       ],
       [
         "q5",
-        "5. Com que frequência você fica se mexendo na cadeira ou balançando as mãos ou os pés quando precisa ficar sentado(a) por muito tempo?",
+        "5. Com que freqüência você fica se mexendo na cadeira ou balançando as mãos ou os pés quando precisa ficar sentado(a) durante um longo período de tempo?",
         "radio",
         {
           "opts": {
             "0": "Nunca",
             "1": "Raramente",
             "2": "Algumas vezes",
-            "3": "Frequentemente",
-            "4": "Muito frequentemente"
+            "3": "Freqüentemente",
+            "4": "Muito freqüentemente"
+          },
+          "displayLocale": "pt-BR",
+          "optionLocales": {
+            "0": "pt-BR",
+            "1": "pt-BR",
+            "2": "pt-BR",
+            "3": "pt-BR",
+            "4": "pt-BR"
           }
         }
       ],
       [
         "q6",
-        "6. Com que frequência você se sente ativo(a) demais e necessitando fazer coisas, como se estivesse “com um motor ligado”?",
+        "6. Com que freqüência você se sente excessivamente ativo(a) e compelido(a) a fazer coisas, como se fosse conduzido(a) por um motor?",
         "radio",
         {
           "opts": {
             "0": "Nunca",
             "1": "Raramente",
             "2": "Algumas vezes",
-            "3": "Frequentemente",
-            "4": "Muito frequentemente"
+            "3": "Freqüentemente",
+            "4": "Muito freqüentemente"
+          },
+          "displayLocale": "pt-BR",
+          "optionLocales": {
+            "0": "pt-BR",
+            "1": "pt-BR",
+            "2": "pt-BR",
+            "3": "pt-BR",
+            "4": "pt-BR"
           }
         }
       ]
     ],
-    "formula": "<p>Cada resposta na faixa sombreada do formulário conta 1: itens 1 a 3 a partir de “algumas vezes”; itens 4 a 6 a partir de “frequentemente”.</p><p><strong>4 ou mais</strong> itens na faixa sombreada: sintomas altamente compatíveis com TDAH no adulto; indicada avaliação diagnóstica.</p>",
-    "table": [
-      [
-        "Itens na faixa sombreada",
-        "Interpretação"
-      ],
-      [
-        "0 a 3",
-        "Rastreamento negativo"
-      ],
-      [
-        "4 a 6",
-        "Rastreamento positivo: avaliação diagnóstica"
-      ]
-    ],
-    "table_note": "Kessler 2005: a parte A superou a escala completa de 18 itens para rastreamento (sensibilidade de 68,7% e especificidade de 99,5% na amostra de validação).",
-    "tips": [
-      "O diagnóstico de TDAH exige sintomas desde a infância (antes dos 12 anos pelo DSM-5), em mais de um contexto e com prejuízo funcional: confirme com entrevista clínica e, se possível, informante.",
-      "Ansiedade, depressão, transtorno bipolar, uso de substâncias, privação de sono e apneia do sono causam desatenção: exclua antes de atribuir ao TDAH.",
-      "A parte B (itens 7 a 18) não entra no rastreamento, mas ajuda a detalhar os sintomas na consulta.",
-      "Antes de prescrever estimulantes, avalie pressão arterial, frequência cardíaca, história cardiovascular e risco de uso indevido."
-    ],
+    "formula": "Some o número de respostas que aparecem na área com sombreado mais escuro. Quatro (4) ou mais respostas indicam que seus sintomas podem ser compatíveis com o diagnóstico de TDAH em Adultos. Nesse caso, poderá ser benéfico conversar com seu médico sobre a necessidade de uma avaliação clínica.",
     "sources": [
       [
         "Kessler RC et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med, 2005.",
@@ -126,6 +154,10 @@
       [
         "Mattos P et al. Adaptação transcultural para o português da escala Adult Self-Report Scale para avaliação do transtorno de déficit de atenção/hiperatividade (TDAH) em adultos. Rev Psiq Clín, 2006.",
         "https://doi.org/10.1590/S0101-60832006000400004"
+      ],
+      [
+        "New York University / Harvard · ASRS v1.1 six-question screener · published forms and electronic conversion conditions",
+        "https://license.tov.med.nyu.edu/product/asrs6Qscreener"
       ]
     ],
     "cases": [
@@ -200,9 +232,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -211,17 +240,936 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T21:47:03.432Z",
+      "total": 15625,
+      "passed": 15625,
+      "sourceRowCount": 15625,
+      "uniqueApiInputCount": 15625,
+      "scope": "Original six-question threshold count: q1–3>=2; q4–6>=3; positivecount>=4. No diagnosis, authorized translation, rights approval or clinicalvalidation.",
+      "caseStorage": {
+        "file": "independent-source-cases.json",
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "sha256": "23f6123d77ab2fe904daa0e73c5ca127e0c3c2db16abc20f8e8bec935ddba1df",
+        "total": 15625,
+        "uniqueApiInputCount": 15625,
+        "bankRowCount": 15625
+      },
+      "cases": [
+        {
+          "index": 0,
+          "input": {
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "q5": 0,
+            "q6": 0
+          },
+          "expected": {
+            "raw": {
+              "score": 0
+            }
+          },
+          "passed": true,
+          "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
+          "obtainedByTarget": [
+            {
+              "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            },
+            {
+              "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            },
+            {
+              "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "input": {
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "q5": 0,
+            "q6": 1
+          },
+          "expected": {
+            "raw": {
+              "score": 0
+            }
+          },
+          "passed": true,
+          "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
+          "obtainedByTarget": [
+            {
+              "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            },
+            {
+              "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            },
+            {
+              "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "input": {
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "q5": 0,
+            "q6": 2
+          },
+          "expected": {
+            "raw": {
+              "score": 0
+            }
+          },
+          "passed": true,
+          "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
+          "obtainedByTarget": [
+            {
+              "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            },
+            {
+              "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            },
+            {
+              "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+              "runtime": "Node+VM",
+              "acceptedProjection": {
+                "raw": {
+                  "score": 0
+                }
+              },
+              "observedRaw": {
+                "score": 0
+              },
+              "main": [
+                "0",
+                "de 6 itens"
+              ],
+              "passed": true,
+              "excludedPartsAreNotApproved": true
+            }
+          ]
+        }
+      ],
+      "sourceExpectation": {
+        "file": "reports/review-20261003/source33-accepted-scope-expectations.json",
+        "sha256": "c51a745f432eef23771c7e52dea4c8b82f501ce54d3bfe640e449e04883bc907"
+      },
+      "originalEvidence": {
+        "file": "reports/review-20261003/six-primary-own-source-check-final33.json",
+        "sha256": "f41286e6919665d7480d19067e0fa325292e1753677e419375b69a9739843521"
+      },
+      "sourceRead": {
+        "file": "reports/review-20261003/six-primary-own-observations-final33.json",
+        "sha256": "f4047a76d52e04932e39b336d9a395c949640cb519103160ebe5241fd4ad67a1"
+      },
+      "independentPeer": {
+        "status": "completed",
+        "kind": "independent-technical-packaging-and-replay",
+        "file": "reports/review-20261003/source33-bank-packaging-root-peer-r2.json",
+        "sha256": "5201eb9c2655a20545a1e836e61bb26045b368c4dfc6f690a9dde3b63bdc398e",
+        "checks": 568121,
+        "scope": "Root independent technical packaging/projection peer, against the source author pre-engine expectations. Not a second blind primary-source derivation or clinical/professional-language/rights approval. Exact source33 exclusions retained; no tolerance relaxation.",
+        "secondBlindPrimarySourceDerivation": false,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed"
+      },
+      "numericPolicy": {
+        "acceptedProjection": "Strict independently frozen accepted integer/count/class projection; no float tolerance"
+      },
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
+    },
+    "methodVersion": "ASRSv 1.1/WHO 2005:Parte A 6 itens, limiares específicos, positivo≥4",
+    "implementationVersion": "asrs-rastreamento-tdah@native-2026-10-05-nyu-electronic+56323abc49cd",
+    "currentMethodSource": {
+      "title": "Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos Versão 1.1 (ASRS-V1.1)",
+      "url": "https://license.tov.med.nyu.edu/download/5357",
+      "version": "ASRS v1.1 six-question screener, literal NYU-published forms",
+      "checkedAt": "2026-10-05",
+      "access": "Nine original PDFs read and visually compared"
+    },
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-05",
+      "implementedVariant": "Some o número de respostas que aparecem na área com sombreado mais escuro. Quatro (4) ou mais respostas indicam que seus sintomas podem ser compatíveis com o diagnóstico de TDAH em Adultos. Nesse caso, poderá ser benéfico conversar com seu médico sobre a necessidade de uma avaliação clínica.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "q1",
+            "label": "1. Com que freqüência você sente dificuldade para finalizar os últimos detalhes de uma tarefa, depois de já ter feito as partes mais complicadas?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nunca",
+              "1": "Raramente",
+              "2": "Algumas vezes",
+              "3": "Freqüentemente",
+              "4": "Muito freqüentemente"
+            }
+          },
+          {
+            "key": "q2",
+            "label": "2. Com que freqüência você sente dificuldade para manter as coisas em ordem quando precisa realizar uma tarefa que exige organização?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nunca",
+              "1": "Raramente",
+              "2": "Algumas vezes",
+              "3": "Freqüentemente",
+              "4": "Muito freqüentemente"
+            }
+          },
+          {
+            "key": "q3",
+            "label": "3. Com que freqüência você tem problemas para se lembrar de compromissos ou obrigações?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nunca",
+              "1": "Raramente",
+              "2": "Algumas vezes",
+              "3": "Freqüentemente",
+              "4": "Muito freqüentemente"
+            }
+          },
+          {
+            "key": "q4",
+            "label": "4. Quando precisa realizar uma tarefa que exige muita concentração, com que freqüência você evita ou atrasa o seu início?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nunca",
+              "1": "Raramente",
+              "2": "Algumas vezes",
+              "3": "Freqüentemente",
+              "4": "Muito freqüentemente"
+            }
+          },
+          {
+            "key": "q5",
+            "label": "5. Com que freqüência você fica se mexendo na cadeira ou balançando as mãos ou os pés quando precisa ficar sentado(a) durante um longo período de tempo?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nunca",
+              "1": "Raramente",
+              "2": "Algumas vezes",
+              "3": "Freqüentemente",
+              "4": "Muito freqüentemente"
+            }
+          },
+          {
+            "key": "q6",
+            "label": "6. Com que freqüência você se sente excessivamente ativo(a) e compelido(a) a fazer coisas, como se fosse conduzido(a) por um motor?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nunca",
+              "1": "Raramente",
+              "2": "Algumas vezes",
+              "3": "Freqüentemente",
+              "4": "Muito freqüentemente"
+            }
+          }
+        ],
+        "hash": "565baa6f9f56369feb689fa89530e1777dc29fbc370864674d189af072f9422a"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Kessler RC et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med, 2005.",
+          "url": "https://doi.org/10.1017/S0033291704002892",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population.",
+            "year": "2005",
+            "firstPublicationDate": "2005-02-01",
+            "doi": "10.1017/s0033291704002892",
+            "pmid": "15841682",
+            "journal": "Psychological medicine",
+            "authors": "Kessler RC, Adler L, Ames M, Demler O, Faraone S, Hiripi E, Howes MJ, Jin R, Secnik K, Spencer T, Ustun TB, Walters EE."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/15841682/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "6f19c4e47b2cb420630c60204f1597f3e4f4658f5519d893031b445b7f9a1ec5",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Mattos P et al. Adaptação transcultural para o português da escala Adult Self-Report Scale para avaliação do transtorno de déficit de atenção/hiperatividade (TDAH) em adultos. Rev Psiq Clín, 2006.",
+          "url": "https://doi.org/10.1590/S0101-60832006000400004",
+          "class": "publisher-deposited-bibliography-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publisherDepositedMetadata": {
+            "title": "Adaptação transcultural para o português da escala Adult Self-Report Scale para avaliação do transtorno de déficit de atenção/hiperatividade (TDAH) em adultos",
+            "doi": "10.1590/s0101-60832006000400004",
+            "year": 2006,
+            "publisher": "FapUNIFESP (SciELO)",
+            "journal": "Archives of Clinical Psychiatry (São Paulo)",
+            "authors": [
+              "Paulo Mattos",
+              "Daniel Segenreich",
+              "Eloísa Saboya",
+              "Mário Louzã",
+              "Gabriela Dias",
+              "Marcos Romano"
+            ],
+            "url": "https://doi.org/10.1590/s0101-60832006000400004"
+          },
+          "publication": {
+            "title": "Adaptação transcultural para o português da escala Adult Self-Report Scale para avaliação do transtorno de déficit de atenção/hiperatividade (TDAH) em adultos",
+            "doi": "10.1590/s0101-60832006000400004",
+            "year": 2006,
+            "publisher": "FapUNIFESP (SciELO)",
+            "journal": "Archives of Clinical Psychiatry (São Paulo)",
+            "authors": [
+              "Paulo Mattos",
+              "Daniel Segenreich",
+              "Eloísa Saboya",
+              "Mário Louzã",
+              "Gabriela Dias",
+              "Marcos Romano"
+            ],
+            "url": "https://doi.org/10.1590/s0101-60832006000400004"
+          }
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T21:47:03.432Z",
+        "total": 15625,
+        "passed": 15625,
+        "sourceRowCount": 15625,
+        "uniqueApiInputCount": 15625,
+        "scope": "Original six-question threshold count: q1–3>=2; q4–6>=3; positivecount>=4. No diagnosis, authorized translation, rights approval or clinicalvalidation.",
+        "caseStorage": {
+          "file": "independent-source-cases.json",
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "sha256": "23f6123d77ab2fe904daa0e73c5ca127e0c3c2db16abc20f8e8bec935ddba1df",
+          "total": 15625,
+          "uniqueApiInputCount": 15625,
+          "bankRowCount": 15625
+        },
+        "cases": [
+          {
+            "index": 0,
+            "input": {
+              "q1": 0,
+              "q2": 0,
+              "q3": 0,
+              "q4": 0,
+              "q5": 0,
+              "q6": 0
+            },
+            "expected": {
+              "raw": {
+                "score": 0
+              }
+            },
+            "passed": true,
+            "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
+            "obtainedByTarget": [
+              {
+                "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              },
+              {
+                "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              },
+              {
+                "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "input": {
+              "q1": 0,
+              "q2": 0,
+              "q3": 0,
+              "q4": 0,
+              "q5": 0,
+              "q6": 1
+            },
+            "expected": {
+              "raw": {
+                "score": 0
+              }
+            },
+            "passed": true,
+            "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
+            "obtainedByTarget": [
+              {
+                "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              },
+              {
+                "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              },
+              {
+                "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "input": {
+              "q1": 0,
+              "q2": 0,
+              "q3": 0,
+              "q4": 0,
+              "q5": 0,
+              "q6": 2
+            },
+            "expected": {
+              "raw": {
+                "score": 0
+              }
+            },
+            "passed": true,
+            "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
+            "obtainedByTarget": [
+              {
+                "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              },
+              {
+                "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              },
+              {
+                "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
+                "runtime": "Node+VM",
+                "acceptedProjection": {
+                  "raw": {
+                    "score": 0
+                  }
+                },
+                "observedRaw": {
+                  "score": 0
+                },
+                "main": [
+                  "0",
+                  "de 6 itens"
+                ],
+                "passed": true,
+                "excludedPartsAreNotApproved": true
+              }
+            ]
+          }
+        ],
+        "sourceExpectation": {
+          "file": "reports/review-20261003/source33-accepted-scope-expectations.json",
+          "sha256": "c51a745f432eef23771c7e52dea4c8b82f501ce54d3bfe640e449e04883bc907"
+        },
+        "originalEvidence": {
+          "file": "reports/review-20261003/six-primary-own-source-check-final33.json",
+          "sha256": "f41286e6919665d7480d19067e0fa325292e1753677e419375b69a9739843521"
+        },
+        "sourceRead": {
+          "file": "reports/review-20261003/six-primary-own-observations-final33.json",
+          "sha256": "f4047a76d52e04932e39b336d9a395c949640cb519103160ebe5241fd4ad67a1"
+        },
+        "independentPeer": {
+          "status": "completed",
+          "kind": "independent-technical-packaging-and-replay",
+          "file": "reports/review-20261003/source33-bank-packaging-root-peer-r2.json",
+          "sha256": "5201eb9c2655a20545a1e836e61bb26045b368c4dfc6f690a9dde3b63bdc398e",
+          "checks": 568121,
+          "scope": "Root independent technical packaging/projection peer, against the source author pre-engine expectations. Not a second blind primary-source derivation or clinical/professional-language/rights approval. Exact source33 exclusions retained; no tolerance relaxation.",
+          "secondBlindPrimarySourceDerivation": false,
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed"
+        },
+        "numericPolicy": {
+          "acceptedProjection": "Strict independently frozen accepted integer/count/class projection; no float tolerance"
+        },
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb",
+      "officialPublishedFormSource": {
+        "title": "Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos Versão 1.1 (ASRS-V1.1)",
+        "url": "https://license.tov.med.nyu.edu/download/5357",
+        "version": "ASRS v1.1 six-question screener, literal NYU-published forms",
+        "checkedAt": "2026-10-05",
+        "access": "Nine original PDFs read and visually compared"
+      },
+      "electronicConversion": "literal NYU-published form; Arabic unshaded source retained; Japanese timeframe operational supplement separated"
+    },
+    "limits": "Rastreamento de TDAH no adulto. A Parte A de seis itens deve ser distinguida do questionário de 18 itens e da entrevista diagnóstica. Resultado positivo indica necessidade de avaliação clínica; a amostra de recalibração e a adaptação portuguesa não validam automaticamente esta implementação em todos os idiomas.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.737Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Limiares item a item e texto integral de Mattos 2006 não conferidos."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
+    },
+    "fieldLocale": "pt-BR",
+    "formulaLocale": "pt-BR",
+    "asrsOfficialForm": {
+      "locale": "pt-BR",
+      "sourcePdf": "reports/review-20261005-completion/asrs-primary-nine-r1/pt-BR.pdf",
+      "sourcePdfSha256": "aa4ed92ab7342d71a39524d1b7504d328050750a0bf002a19c6ad35b614fd994",
+      "primaryEndpoint": "https://license.tov.med.nyu.edu/download/5357",
+      "questionnairePageOneBased": 3,
+      "questions": [
+        "1. Com que freqüência você sente dificuldade para finalizar os últimos detalhes de uma tarefa, depois de já ter feito as partes mais complicadas?",
+        "2. Com que freqüência você sente dificuldade para manter as coisas em ordem quando precisa realizar uma tarefa que exige organização?",
+        "3. Com que freqüência você tem problemas para se lembrar de compromissos ou obrigações?",
+        "4. Quando precisa realizar uma tarefa que exige muita concentração, com que freqüência você evita ou atrasa o seu início?",
+        "5. Com que freqüência você fica se mexendo na cadeira ou balançando as mãos ou os pés quando precisa ficar sentado(a) durante um longo período de tempo?",
+        "6. Com que freqüência você se sente excessivamente ativo(a) e compelido(a) a fazer coisas, como se fosse conduzido(a) por um motor?"
+      ],
+      "options": {
+        "0": "Nunca",
+        "1": "Raramente",
+        "2": "Algumas vezes",
+        "3": "Freqüentemente",
+        "4": "Muito freqüentemente"
+      },
+      "scoringInstruction": "Some o número de respostas que aparecem na área com sombreado mais escuro. Quatro (4) ou mais respostas indicam que seus sintomas podem ser compatíveis com o diagnóstico de TDAH em Adultos. Nesse caso, poderá ser benéfico conversar com seu médico sobre a necessidade de uma avaliação clínica.",
+      "questionWhitespacePolicy": "PDF line-wrap whitespace only; no wording, punctuation or accent edits; CJK line wraps joined",
+      "visualReview": {
+        "pageRenderedAndInspected": true,
+        "twoToneResponseMatrix": true,
+        "darkCellStarts": {
+          "q1": 2,
+          "q2": 2,
+          "q3": 2,
+          "q4": 3,
+          "q5": 3,
+          "q6": 3
+        }
+      },
+      "title": "Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos Versão 1.1 (ASRS-V1.1)",
+      "instructions": "Assinale a alternativa que melhor descreve a forma como você tem se sentido e comportado nos últimos 6 meses. Por favor, entregue o questionário preenchido ao seu profissional de saúde durante a próxima consulta para discutir os resultados obtidos.",
+      "ageStatement": "Esta Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos V1.1 (ASRS-V1.1) destina-se a indivíduos com idade igual ou superior a 18 anos.",
+      "dateLabel": "Data",
+      "acknowledgements": "Translation of this document was performed by Maria Carmen Viana, MD, PhD, Department of Internal Medicine, Santa Casa Medical School of Vitória, Brazil.",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "completePrimaryPdfRetained": true,
+      "sourceMatrixMode": "patient-shaded",
+      "thresholdSource": {
+        "locale": "pt-BR",
+        "sourcePdfSha256": "aa4ed92ab7342d71a39524d1b7504d328050750a0bf002a19c6ad35b614fd994"
+      },
+      "timeframe": {
+        "months": 6,
+        "presentInSourceInstruction": true,
+        "sourceLocale": "pt-BR",
+        "japaneseOperationalContextIsSeparate": false
+      },
+      "requestedLocale": "pt-BR",
+      "sourceLocale": "pt-BR",
+      "originalPdf": "/tool-source/asrs-rastreamento-tdah/original/pt-BR.pdf",
+      "operationalNote": null,
+      "operationalNoteLocale": "pt-BR",
+      "officialHindiTextAvailable": false,
+      "officialPublishedText": true,
+      "ownerConditions": {
+        "source": "https://license.tov.med.nyu.edu/product/asrs6Qscreener",
+        "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+        "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+        "permitted": "The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.",
+        "officialPublishedQuestionnaireLocales": [
+          "pt-BR",
+          "en",
+          "es",
+          "fr",
+          "de",
+          "it",
+          "ar",
+          "zh",
+          "ja"
+        ],
+        "officialHindiTextAvailable": false,
+        "clinicalApproval": false,
+        "professionalLanguageApproval": false,
+        "electronicConversionLiteralPublishedText": true
+      },
+      "provenance": {
+        "record": {
+          "file": "reports/review-20261005-completion/asrs-official-nine-form-record-r3.json",
+          "sha256": "b03cb78e08e176c1b477ca11a2dd6e467ee6d7e30739a10c7b7284a33ac449db"
+        },
+        "arVisualPeer": {
+          "file": "reports/review-20261005-completion/asrs-ar-primary-visual-peer-r1.json",
+          "sha256": "8cec998120265b6772b53353f52b911e001fc1ca5abe001883455a13b418236f"
+        }
+      }
+    },
+    "ownerUseConditions": {
+      "source": "https://license.tov.med.nyu.edu/product/asrs6Qscreener",
+      "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+      "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+      "permitted": "The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.",
+      "officialPublishedQuestionnaireLocales": [
+        "pt-BR",
+        "en",
+        "es",
+        "fr",
+        "de",
+        "it",
+        "ar",
+        "zh",
+        "ja"
+      ],
+      "officialHindiTextAvailable": false,
+      "clinicalApproval": false,
+      "professionalLanguageApproval": false,
+      "electronicConversionLiteralPublishedText": true
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
+    "bytes": 6176,
+    "sha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "c9f8fadd6c482c67bfac06b03929e737783b826f1e354ebfca5a9ab97ebcb216",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 3,
+      "sha256": "573281f98c7d7dcfd78466e2efc3d9215c27a4e761a1b556c0f385e6523cc672",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 3,
+      "sha256": "573281f98c7d7dcfd78466e2efc3d9215c27a4e761a1b556c0f385e6523cc672",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "NYU owner permits literal electronic conversion with attribution; independent clinical approval not performed",
+  "ownerUseConditions": {
+    "source": "https://license.tov.med.nyu.edu/product/asrs6Qscreener",
+    "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
+    "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
+    "permitted": "The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.",
+    "officialPublishedQuestionnaireLocales": [
+      "pt-BR",
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "ar",
+      "zh",
+      "ja"
+    ],
+    "officialHindiTextAvailable": false,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "electronicConversionLiteralPublishedText": true
+  },
+  "officialForms": {
+    "count": 9,
+    "locales": [
+      "pt-BR",
+      "en",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "ar",
+      "zh",
+      "ja"
+    ],
+    "Hindi": "English original inside Hindi shell with explicit English language; authorized Hindi text unavailable",
+    "Arabic": "Published unshaded matrix retained; EN thresholds documented separately",
+    "Japanese": "Published question wording retained; six-month operational context separately identified"
+  },
+  "contractHashCorrection": {
+    "file": "reports/review-20261005-completion/asrs-contract-hash-correction-r2.json",
+    "bytes": 11192,
+    "sha256": "1047492058121e89b05af87226e3c74066548d86c427b090dd1776a446271c2e"
+  }
 }

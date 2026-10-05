@@ -1,61 +1,35 @@
 # ASRS v1.1 (rastreamento de TDAH no adulto)
 
-Identificador: `asrs-rastreamento-tdah`. Pacote independente da plataforma ELUCENIA, para navegador e Node.js.
+## Documentation in ten languages
 
-## Situação
+- [Português (Brasil)](documentation/pt-BR.md) · [ELUCENIA](https://elucenia.org/pt-br/ferramentas/asrs-rastreamento-tdah)
+- [English](documentation/en.md) · [ELUCENIA](https://elucenia.org/en/tools/asrs-rastreamento-tdah)
+- [Español](documentation/es.md) · [ELUCENIA](https://elucenia.org/es/herramientas/asrs-rastreamento-tdah)
+- [Français](documentation/fr.md) · [ELUCENIA](https://elucenia.org/fr/outils/asrs-rastreamento-tdah)
+- [Deutsch](documentation/de.md) · [ELUCENIA](https://elucenia.org/de/werkzeuge/asrs-rastreamento-tdah)
+- [Italiano](documentation/it.md) · [ELUCENIA](https://elucenia.org/it/strumenti/asrs-rastreamento-tdah)
+- [العربية](documentation/ar.md) · [ELUCENIA](https://elucenia.org/ar/tools/asrs-rastreamento-tdah)
+- [中文](documentation/zh.md) · [ELUCENIA](https://elucenia.org/zh/tools/asrs-rastreamento-tdah)
+- [日本語](documentation/ja.md) · [ELUCENIA](https://elucenia.org/ja/tools/asrs-rastreamento-tdah)
+- [हिन्दी](documentation/hi.md) · [ELUCENIA](https://elucenia.org/hi/tools/asrs-rastreamento-tdah)
 
-- Revisão: **needs-review**. Revisão documental e clínica independente pendente.
-- Execução: **disponível para reprodução técnica da fórmula**.
-- Validação clínica independente: **não realizada**. Os testes abaixo verificam aritmética e transporte dos campos.
-- 4 casos de referência em `examples.json`, conferidos por `test.cjs`. Verificação aritmética independente da fórmula (reimplementação a partir da literatura, entradas aleatórias): **realizada em 2026-09-25**, 40 comparações conformes.
-- Dados: o exemplo funciona localmente, sem rede, armazenamento ou identificação de pacientes.
+The README introduction is in English; the linked usage, field, method, limits, source and review documentation is available in each listed language. Bibliographic titles and schema identifiers retain their source identity.
 
-## Uso no Node.js
 
-```js
-const { calculate } = require('./calculator.js');
-const example = require('./examples.json')[0];
-console.log(calculate(example.input));
-```
+# ASRS v1.1 six-question screener: exact published forms
 
-Execute `node test.cjs` (ou `npm test`) para conferir os exemplos. Abra `index.html` para usar a versão local do navegador. Não há dependências npm.
+© New York University and the President and Fellows of Harvard College.
 
-## Contrato
+© New York University and President and Fellows of Harvard College. All rights reserved.
 
-`calculate(input)` recebe um objeto, devolve `{id, main, label, raw, clinicalValidation}` ou `{error, code, field?}`. Consulte `tool.json` e `metadata.fields` para nomes, unidades, opções e intervalos. Números aceitam valores finitos ou strings numéricas; opções precisam corresponder às chaves documentadas. Campos obrigatórios vazios, booleanos inválidos, valores fora de intervalo e resultados não finitos são rejeitados. Somente checkbox omitido representa falso; um campo numérico ou uma opção obrigatória nunca é preenchido automaticamente.
+Owner source: https://license.tov.med.nyu.edu/product/asrs6Qscreener
 
-Interpretações, ordens terapêuticas e tabelas herdadas não são retornadas pelo adaptador. Classificações e valores ainda dependem da população e das limitações da fonte.
+The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.
 
-## Fórmula / versão
+This package is a literal electronic conversion of nine NYU-published forms. Question text, ordered response options and original source instructions are retained; line-wrap whitespace is normalized. Eight forms retain their two levels of shading. The downloaded Arabic form has an unshaded matrix, which is reproduced without inventing source shading; its contradictory shading instruction is retained, and numeric threshold logic is documented separately from the original form. The published Japanese PDF has no six-month instruction; a separate Japanese operational note identifies the English-source reference period. The Hindi interface explicitly presents the English original with English language metadata and a Hindi limitation notice. It is not an approved or source-verified Hindi instrument.
 
-Cada resposta na faixa sombreada do formulário conta 1: itens 1 a 3 a partir de “algumas vezes”; itens 4 a 6 a partir de “frequentemente”.4 ou mais itens na faixa sombreada: sintomas altamente compatíveis com TDAH no adulto; indicada avaliação diagnóstica.
+All nine complete original PDFs are included intact in original/. Existing remote LICENSE/NOTICE and seven procedural/attribution files remain byte-exact. Apache and MIT software licenses do not license instrument modifications. The owner attribution and restrictions above remain applicable. Internal PDF extraction and model visual transcription comparison do not represent independent clinical or professional language approval.
 
-A transcrição acima documenta o acervo de origem e pode requerer atualização. 
+## Use and reproduce
 
-## Condições e limites
-
-As seis perguntas da parte A da escala de autorrelato da OMS são as mais preditivas de TDAH no adulto. Servem para rastrear, não para diagnosticar.
-
-Confirme população, exclusões, unidades, versão e diretriz aplicável ao país e serviço. O resultado não deve ser utilizado isoladamente para diagnóstico, alta ou prescrição. O pacote não representa certificação clínica, aprovação regulatória ou indicação para toda população. Veja a revisão completa em `tool.json`.
-
-## Fontes originais
-
-- [Kessler RC et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med, 2005.](https://doi.org/10.1017/S0033291704002892)
-- [Mattos P et al. Adaptação transcultural para o português da escala Adult Self-Report Scale para avaliação do transtorno de déficit de atenção/hiperatividade (TDAH) em adultos. Rev Psiq Clín, 2006.](https://doi.org/10.1590/S0101-60832006000400004)
-
-## Exemplos e rastreabilidade
-
-`examples.json` preserva `originalInput`, expectativa e entrada explícita do exemplo. Não foi necessário expandir opções zero nos exemplos.
-
-## O que esta ferramenta não faz
-
-- Não diagnostica, não prescreve e não substitui a avaliação de um médico. O resultado é a reprodução técnica de uma fórmula ou escore publicado.
-- Não envia dados a lugar nenhum: roda no navegador ou no Node.js, sem rede, sem telemetria, sem armazenamento.
-- Não guarda nem identifica pacientes. Não use com dados identificáveis fora de um ambiente que você controla.
-- Não tem validação clínica independente nem aprovação regulatória (ver "Situação").
-
-## Autoria e licença
-
-Criado e mantido por **Felipe Guedes** (Engenheiro de Software e Arquiteto de Sistemas, Toledo, Paraná, Brasil) para a **ELUCENIA**, uma cadeia médica e científica global para acelerar a descoberta. Criado em 2026-09-25 na organização [github.com/Elucenia](https://github.com/Elucenia).
-
-Licença **Apache-2.0** (arquivo `LICENSE`): você pode usar, copiar, modificar e embutir este código no seu site ou sistema, inclusive comercial, desde que mantenha o arquivo `NOTICE` e o aviso de copyright e declare as modificações. A licença cobre o código deste pacote; instrumentos, questionários, tabelas, traduções e marcas citados nas fontes mantêm os direitos dos seus titulares (ver `NOTICE`). Detalhes em `AUTHORSHIP.md`, `CITATION.cff`, `SECURITY.md` e `CONTRIBUTING.md`. Contato: contato@elucenia.org.
+Open index.html to use the tool locally; no external service is required. The electronic form has native radio inputs, original source language and source-specific matrix appearance. Run `node test.cjs` or `npm test` for reference cases, schema refusals, Node/browser VM parity, literal source-form comparisons and all 15,625 response combinations. Tests only read package files. Current R7 HTTP evidence is pending and must be attached before a current HTTP publication claim.
