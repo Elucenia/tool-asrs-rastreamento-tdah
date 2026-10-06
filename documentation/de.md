@@ -116,6 +116,38 @@ Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffe
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
 
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Negatives Screening
+
+Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).
+
+
+### 2
+
+Positives Screening: mit ADHS im Erwachsenenalter vereinbare Symptome
+
+Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).
+
+
+### 3
+
+Negatives Screening
+
+Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).
+
+
+### 4
+
+Positives Screening: mit ADHS im Erwachsenenalter vereinbare Symptome
+
+Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).
+
+
 
 ---
 

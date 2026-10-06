@@ -1,488 +1,178 @@
 {
-  "schema": "elucenia-ASRS-nine-official-current-source-candidate-r2",
+  "schema": "elucenia-public-native-full-output-presentation-r3",
   "id": "asrs-rastreamento-tdah",
   "repository": "Elucenia/tool-asrs-rastreamento-tdah",
   "remoteBase": {
-    "id": "asrs-rastreamento-tdah",
-    "repository": "Elucenia/tool-asrs-rastreamento-tdah",
     "branch": "main",
-    "commit": "c856073543279a2e740bb7ec6f451e3bf5347023",
-    "archiveSha256": "6b73e975aa47385c771504ada2aae9b374133ef53fc82e376970a9cd0e620117",
-    "protectedFiles": [
-      {
-        "path": ".gitattributes",
-        "type": "blob",
-        "mode": "100644",
-        "size": 19,
-        "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
-        "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
-      },
-      {
-        "path": ".github/workflows/ci.yml",
-        "type": "blob",
-        "mode": "100644",
-        "size": 279,
-        "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
-        "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
-      },
-      {
-        "path": ".gitignore",
-        "type": "blob",
-        "mode": "100644",
-        "size": 42,
-        "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
-        "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
-      },
-      {
-        "path": "AUTHORSHIP.md",
-        "type": "blob",
-        "mode": "100644",
-        "size": 3345,
-        "sha": "2ed810288d95f265313b397ac4b806c22d944dfa",
-        "sha256": "e1e30b70bd1cf4429029ad9a2038b9f83ed848e613051b878bd43b74bbdfa892"
-      },
-      {
-        "path": "CITATION.cff",
-        "type": "blob",
-        "mode": "100644",
-        "size": 955,
-        "sha": "125d588d733e7cab2e4ad26b7a8d639ca7571d93",
-        "sha256": "fb60537b2f9a1391e06982aea0eb69beb3e94223f8349d27b8334d8d1ff780cb"
-      },
-      {
-        "path": "CONTRIBUTING.md",
-        "type": "blob",
-        "mode": "100644",
-        "size": 1473,
-        "sha": "daff9ba02f0d381b80be310f84cc6049cd66c575",
-        "sha256": "7a75b47de98459ea0e5338861308fa1fecbc3971a626b95be72654ed0a46b210"
-      },
-      {
-        "path": "LICENSE",
-        "type": "blob",
-        "mode": "100644",
-        "size": 11358,
-        "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
-        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-      },
-      {
-        "path": "NOTICE",
-        "type": "blob",
-        "mode": "100644",
-        "size": 1661,
-        "sha": "0309643591ffa34c2bd2826f5013e6ddc18966a6",
-        "sha256": "8e590b44fd3357c4d667af4e1b9cc74324041371bd5efedc5f64479747bc6f28"
-      },
-      {
-        "path": "SECURITY.md",
-        "type": "blob",
-        "mode": "100644",
-        "size": 894,
-        "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
-        "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
-      }
-    ],
-    "receipt": {
-      "file": "reports/review-20261005-completion/native190-protected-remote-baseline-r1.json",
-      "bytes": 6066154,
-      "sha256": "ec8bac70e5a6eed7fb742c319c4e68344eea5713350fa16b9d9bf48e014a9a88"
-    },
-    "remoteCodeExecuted": false,
-    "freshBranchReadRequiredBeforePublication": true
-  },
-  "priorAuthorialStandalone": {
-    "file": "reports/review-20261003/github-publication-candidate-final36-v4.json",
-    "bytes": 6823260,
-    "sha256": "a3c528b12d7b5416fa0e62dda9e5106864bae7ff86710fa765934b5a3069e16c"
+    "commit": "99b6cd26065d88dbce865de98d1084e65b15a58c",
+    "tree": "ab113327a01e3f968f9772e446cad6431f5c136c"
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-    "bytes": 6176,
-    "sha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb"
+    "bytes": 6381,
+    "sha256": "669e0c15fdc7dd3e7050e923389abb21917a237d09c8c10f9ffecd573b9123e1"
   },
-  "browserAdapterIdentical": true,
+  "implementationVersion": "asrs-rastreamento-tdah@native-2026-10-05+669e0c15fdc7",
   "methodVersion": "ASRSv 1.1/WHO 2005:Parte A 6 itens, limiares específicos, positivo≥4",
-  "implementationVersion": "asrs-rastreamento-tdah@native-2026-10-03+ffc0322b8490",
-  "locales": [
-    "pt-BR",
-    "en",
-    "es",
-    "fr",
-    "de",
-    "it",
-    "ar",
-    "zh",
-    "ja",
-    "hi"
+  "outputContract": [
+    "main",
+    "label",
+    "raw",
+    "level",
+    "verdict",
+    "rows",
+    "note"
+  ],
+  "sourceBodyChanged": false,
+  "inputsFormulaAndNumericalOutputsUnchanged": true,
+  "protectedRemoteFiles": [
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "8e590b44fd3357c4d667af4e1b9cc74324041371bd5efedc5f64479747bc6f28"
+    },
+    {
+      "path": "AUTHORSHIP.md",
+      "sha256": "e1e30b70bd1cf4429029ad9a2038b9f83ed848e613051b878bd43b74bbdfa892"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "fb60537b2f9a1391e06982aea0eb69beb3e94223f8349d27b8334d8d1ff780cb"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "7a75b47de98459ea0e5338861308fa1fecbc3971a626b95be72654ed0a46b210"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+    }
   ],
   "sourceSnapshots": [
     {
       "file": "apps/dashboard/private/localization/pt-BR.json",
-      "bytes": 13601911,
-      "sha256": "347c306e9e588d9bff853ab948f100b2ce00d7adb88efb821e39c2799deb1806"
+      "bytes": 13647982,
+      "sha256": "28ccccd21be582c58448407d589b5171fc58f08424934b92957d5a28f7662c40"
     },
     {
       "file": "apps/dashboard/private/localization/en.json",
-      "bytes": 13681895,
-      "sha256": "e14119d6179a16e4af0998cb86cd7332e72eccae8a8257000b4ea940a5919f2b"
+      "bytes": 14038907,
+      "sha256": "13ae4da010a9f2e0331985d26e10f24542d70dfa9fb57c54c3b1f578f7ff92ba"
     },
     {
       "file": "apps/dashboard/private/localization/es.json",
-      "bytes": 13727824,
-      "sha256": "52dce27b11b7d4bd0b0e599e66e24beb802f99068554f76c34ef81c98d7e164f"
+      "bytes": 14091025,
+      "sha256": "8c11d0aeff23af02cee859b844c6e86dbd36c6ff3aeb94be4d3817b3f252825b"
     },
     {
       "file": "apps/dashboard/private/localization/fr.json",
-      "bytes": 13775177,
-      "sha256": "e4ffcf4c7a5378bb9527a544548c6d8364aa309ea38f567359f8f198eee6c7c9"
+      "bytes": 14146083,
+      "sha256": "bc4e26a1076c62e5d5df6325efa2eba34a236d70a48186f322e68da00f88392f"
     },
     {
       "file": "apps/dashboard/private/localization/de.json",
-      "bytes": 13749397,
-      "sha256": "c92817a3fa8412a4f878061d3ac1c56be6d114aae1c3232c25f79c6ce7d597f4"
+      "bytes": 14118649,
+      "sha256": "9160149ec19832146fe930316792ccdc14fd475231217a6ed772488b9c6f8b99"
     },
     {
       "file": "apps/dashboard/private/localization/it.json",
-      "bytes": 13726317,
-      "sha256": "5c7c142087de8016a75759669a7271a9048d9544b1a1383c626fafa7be0ece39"
+      "bytes": 14090640,
+      "sha256": "c141607f449e0acb33241fa22d5c2012e2034bd3f64e517730944bec61b13061"
     },
     {
       "file": "apps/dashboard/private/localization/ar.json",
-      "bytes": 13962469,
-      "sha256": "c3a3cf978eeac700c01847f49bc4dd12759499a6973fa36733bc290786f9246d"
+      "bytes": 14363325,
+      "sha256": "358b92b7d8bb7a916532f576c44cb8a071330a697456cee8348bec5ee4381dbd"
     },
     {
       "file": "apps/dashboard/private/localization/zh.json",
-      "bytes": 13590420,
-      "sha256": "eb2c7d8d5b980d6d43e44bcc135bcde31565fab0290bf595f84975dec6fb294e"
+      "bytes": 13940069,
+      "sha256": "22daaa39df8a2a3a38a9b873011aeb8498876c6e5500c5932abc9c4a4aace75d"
     },
     {
       "file": "apps/dashboard/private/localization/ja.json",
-      "bytes": 13729894,
-      "sha256": "eb524f45c7e9ce0fc3e951b159c102294d6702a1858a1f43f7e920c69fa1a290"
+      "bytes": 14096534,
+      "sha256": "19f044c36143e536193f98fa1862f0671809f336986ae9d863e0256084151d56"
     },
     {
       "file": "apps/dashboard/private/localization/hi.json",
-      "bytes": 14418664,
-      "sha256": "fe93d7fc31e91ed8c9d3acee80261a2f8ad74b77c86e6e28f9b4cadf5d9f048f"
+      "bytes": 14869561,
+      "sha256": "73670c872df401d81305c7728c9b46e258a12e607f4d1a40d4f7a2e962505fe5"
     }
   ],
-  "referenceBank": {
-    "file": "reports/review-20261003/source-cases-audit.json",
-    "bytes": 885399,
-    "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
-  },
-  "comparisonProgram": {
-    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
-    "bytes": 20735,
-    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa"
-  },
-  "sourceNodeParityPassed": true,
-  "browserVmParityPassed": true,
-  "actualBrowserDomVerified": false,
-  "currentActualR6HttpEvidence": "pending",
-  "rights": {
-    "ownCodeScope": "Current MIT adapter and original Apache standalone wrapper/support; exact original licences and notices coexist without rewriting",
-    "sourceAdapter": {
-      "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-      "bytes": 6063,
-      "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4"
-    },
-    "currentLegalFiles": [
-      {
-        "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/LICENSE",
-        "bytes": 1229,
-        "sha256": "51c010d285894558695812b9883d9c9ae7c9c89526f43597917e778965e65d93"
-      },
-      {
-        "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/NOTICE.md",
-        "bytes": 1183,
-        "sha256": "b7d5eaa1074d1673caf885ac49b38e9b54b2c6086b45072eacf7b3fe139d8a6d"
-      }
-    ],
-    "protectedRemoteFiles": [
-      {
-        "path": ".gitattributes",
-        "type": "blob",
-        "mode": "100644",
-        "size": 19,
-        "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
-        "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
-      },
-      {
-        "path": ".github/workflows/ci.yml",
-        "type": "blob",
-        "mode": "100644",
-        "size": 279,
-        "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
-        "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
-      },
-      {
-        "path": ".gitignore",
-        "type": "blob",
-        "mode": "100644",
-        "size": 42,
-        "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
-        "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
-      },
-      {
-        "path": "AUTHORSHIP.md",
-        "type": "blob",
-        "mode": "100644",
-        "size": 3345,
-        "sha": "2ed810288d95f265313b397ac4b806c22d944dfa",
-        "sha256": "e1e30b70bd1cf4429029ad9a2038b9f83ed848e613051b878bd43b74bbdfa892"
-      },
-      {
-        "path": "CITATION.cff",
-        "type": "blob",
-        "mode": "100644",
-        "size": 955,
-        "sha": "125d588d733e7cab2e4ad26b7a8d639ca7571d93",
-        "sha256": "fb60537b2f9a1391e06982aea0eb69beb3e94223f8349d27b8334d8d1ff780cb"
-      },
-      {
-        "path": "CONTRIBUTING.md",
-        "type": "blob",
-        "mode": "100644",
-        "size": 1473,
-        "sha": "daff9ba02f0d381b80be310f84cc6049cd66c575",
-        "sha256": "7a75b47de98459ea0e5338861308fa1fecbc3971a626b95be72654ed0a46b210"
-      },
-      {
-        "path": "LICENSE",
-        "type": "blob",
-        "mode": "100644",
-        "size": 11358,
-        "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
-        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-      },
-      {
-        "path": "NOTICE",
-        "type": "blob",
-        "mode": "100644",
-        "size": 1661,
-        "sha": "0309643591ffa34c2bd2826f5013e6ddc18966a6",
-        "sha256": "8e590b44fd3357c4d667af4e1b9cc74324041371bd5efedc5f64479747bc6f28"
-      },
-      {
-        "path": "SECURITY.md",
-        "type": "blob",
-        "mode": "100644",
-        "size": 894,
-        "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
-        "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
-      }
-    ],
-    "sourceMaterialScope": "Published mathematical/Boolean method implemented in ELUCENIA code; source-specific clinical descriptions and questionnaire expression remain separate from code ownership/licensing",
-    "scientificSources": [
-      [
-        "Kessler RC et al. The World Health Organization Adult ADHD Self-Report Scale (ASRS): a short screening scale for use in the general population. Psychol Med, 2005.",
-        "https://doi.org/10.1017/S0033291704002892"
-      ],
-      [
-        "Mattos P et al. Adaptação transcultural para o português da escala Adult Self-Report Scale para avaliação do transtorno de déficit de atenção/hiperatividade (TDAH) em adultos. Rev Psiq Clín, 2006.",
-        "https://doi.org/10.1590/S0101-60832006000400004"
-      ]
-    ],
-    "methodVersion": "ASRSv 1.1/WHO 2005:Parte A 6 itens, limiares específicos, positivo≥4",
-    "grantRecordedInNotice": true,
-    "thirdPartyInstrumentRightsApproval": "not-performed",
-    "wholeInstrumentApproval": false,
-    "professionalTranslationApproval": false,
-    "clinicalApproval": false,
-    "remainingScopeReview": "Check source-specific wording, questionnaire/instrument and translation conditions before treating the complete mixed bundle as cleared; no grant is inferred from public accessibility or code licence"
-  },
-  "clinicalApproval": false,
-  "professionalLanguageApproval": false,
-  "externalPublicationReady": false,
-  "publicationPerformed": false,
-  "appWrites": false,
-  "deliveryWrites": false,
-  "preparedFrom": {
-    "file": "reports/review-20261005-completion/asrs-official-public-candidate-r1.json",
-    "bytes": 17556,
-    "sha256": "6448fd0a1144aceede7cc22937020410fee9e9816b23c504bfe28a6e0d15b9cb"
-  },
-  "currentCanonical": {
-    "file": "apps/website/private/canonical-medical-tools.json",
-    "bytes": 29056777,
-    "sha256": "769af80adcd83852cb6ba73ef0f6083971417322b3d739b34ffd86cd38ee33c7"
-  },
-  "sourceIntegration": {
-    "file": "reports/review-20261005-completion/asrs-official-nine-integration-r1.json",
-    "bytes": 25330,
-    "sha256": "9218f30002b7c7c453980fc1c7ca7673c8ab29d2f11c0ab115695d1d7c63582d"
-  },
-  "sourceUIpeer": {
-    "file": "reports/review-20261005-completion/asrs-official-app-components-peer-r3.json",
-    "bytes": 779850,
-    "sha256": "009a02ef2f9e3fa12a34e0e773758ed6f9e2763e7d816d3beea7b93b1f5f975f"
-  },
-  "sourceHelper": {
-    "file": "apps/website/translations/tools/asrs-official-published-forms-authored.cjs",
-    "bytes": 34075,
-    "sha256": "0530129fe2494c431d5f4d3be145f9ad1ecbf2d91918f071a4555af9bdb6d466"
-  },
-  "requiredLegalFiles": [
-    "LICENSE",
-    "NOTICE",
-    "AUTHORSHIP.md",
-    "CITATION.cff",
-    "SECURITY.md",
-    "CONTRIBUTING.md",
-    ".github/workflows/ci.yml",
-    ".gitattributes",
-    ".gitignore"
-  ],
-  "sourcePresentationBindings": [
+  "pureFormatters": [
     {
-      "locale": "pt-BR",
-      "sourceLocale": "pt-BR",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/pt-BR.json",
-        "bytes": 21821842,
-        "sha256": "9dec09803dbe8851ac668ea514b35b22ac9f28bf185740b9a2c801576245cc3e"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
+      "file": "apps/website/src/components/locale-number-format.ts",
+      "bytes": 747,
+      "sha256": "b5b4bd6eaadde5ab191094dafabf73ab594c8bd01fb040c00bb5ecb10167e6c7"
     },
     {
-      "locale": "en",
-      "sourceLocale": "en",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/en.json",
-        "bytes": 21997472,
-        "sha256": "2d55256afaef7bf16e7ab916cb25fc4a081902da69ae45e57a97078f29cc6d26"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
+      "file": "apps/website/src/components/numeric-input.ts",
+      "bytes": 2618,
+      "sha256": "e8259298ea682869cc050ac0ee7b5fdc4ddc9e54aaac1e602975d93fd97b3cb3"
     },
     {
-      "locale": "es",
-      "sourceLocale": "es",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/es.json",
-        "bytes": 22043763,
-        "sha256": "4e5e1deda23b26f7c10a2fb36038bda7c54b27a679956bb999394ce7069954ca"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
+      "file": "apps/website/src/components/calculator-result-localization.ts",
+      "bytes": 11039,
+      "sha256": "b41abb33cf924d7a7d5bce4e09fbe115ab1b425c1f855e3962c9b4300b70c749"
     },
     {
-      "locale": "fr",
-      "sourceLocale": "fr",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/fr.json",
-        "bytes": 22092374,
-        "sha256": "f3c64e5da0ba2e4d17735b6a011de59014625a25273051fa908f82ee631231e5"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
+      "file": "apps/website/src/components/calculator-locale.ts",
+      "bytes": 15741,
+      "sha256": "e1cf2e3aca4c08cb85f241718fb9fe2a04c0e99ca00877b0ff3ab7d9c92d4967"
     },
     {
-      "locale": "de",
-      "sourceLocale": "de",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/de.json",
-        "bytes": 22065703,
-        "sha256": "2e8692a218886832210597910ad411236d56b02bfc2f6d2f3b79694f7cc71157"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
-    },
-    {
-      "locale": "it",
-      "sourceLocale": "it",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/it.json",
-        "bytes": 22042678,
-        "sha256": "4ffcf1d6dcd4c4b0aba9bc751fa650075cd4d9cb3704e819152ce685df2cb479"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
-    },
-    {
-      "locale": "ar",
-      "sourceLocale": "ar",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/ar.json",
-        "bytes": 22281732,
-        "sha256": "bea5bd1ac2c8239e5723a006d3f259f789159d072346fb210b9279fd8582e594"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "clinician-unshaded"
-    },
-    {
-      "locale": "zh",
-      "sourceLocale": "zh",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/zh.json",
-        "bytes": 21905125,
-        "sha256": "8162011c60bf9acdc255747c72dbae6bff7708a73483563617b0da9059936829"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
-    },
-    {
-      "locale": "ja",
-      "sourceLocale": "ja",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/ja.json",
-        "bytes": 22046931,
-        "sha256": "cc4d41ba4cda6aaac943b64f75f79be84be0f0df893a6ffb711fa0d28bdf9020"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
-    },
-    {
-      "locale": "hi",
-      "sourceLocale": "en",
-      "snapshot": {
-        "file": "apps/dashboard/private/localization/hi.json",
-        "bytes": 22736188,
-        "sha256": "e3f65ddc6a4d130f09ad017e0812005bc5055b0017daf69f733b494705cf04bf"
-      },
-      "publishedQuestionTextExact": true,
-      "officialHindiTextAvailable": false,
-      "sourceMatrixMode": "patient-shaded"
+      "file": "apps/website/src/components/calculator-result-narratives.ts",
+      "bytes": 4633,
+      "sha256": "596d9ec7d03077529cc691e2048427e45ebbc2534be1932bea5ca37d811b4144"
     }
   ],
-  "ownerConditions": {
-    "source": "https://license.tov.med.nyu.edu/product/asrs6Qscreener",
-    "ownerCopyright": "© New York University and the President and Fellows of Harvard College.",
-    "sourcePdfCopyright": "© New York University and President and Fellows of Harvard College. All rights reserved.",
-    "permitted": "The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.",
-    "officialPublishedQuestionnaireLocales": [
-      "pt-BR",
-      "en",
-      "es",
-      "fr",
-      "de",
-      "it",
-      "ar",
-      "zh",
-      "ja"
-    ],
-    "officialHindiTextAvailable": false,
-    "clinicalApproval": false,
-    "professionalLanguageApproval": false,
-    "electronicConversionLiteralPublishedText": true
+  "resultRenderer": [
+    {
+      "file": "apps/website/src/components/DocumentedCalculationResult.tsx",
+      "bytes": 2589,
+      "sha256": "cb12598a9588e2bc1bede6f4180690d899eebedc1dce9df4574f3991e4fd0573"
+    }
+  ],
+  "authorialTemplateData": {
+    "file": "apps/website/translations/tools/native-result-narratives-data.json",
+    "bytes": 1434221,
+    "sha256": "b3c720b298033ea4cb84b4eb2b7132e3c6f2e4f042436c3e1a83b0cb9ae0efb5"
   },
-  "currentWholeFileHttp": "pending R7; R6 body evidence historical only",
-  "officialHindiTextAvailable": false,
-  "contractHashCorrection": {
-    "file": "reports/review-20261005-completion/asrs-contract-hash-correction-r2.json",
-    "bytes": 11192,
-    "sha256": "1047492058121e89b05af87226e3c74066548d86c427b090dd1776a446271c2e"
-  }
+  "sourceFreeze": {
+    "file": "reports/review-20261005-completion/native-result-presentation-r1/final-source-freeze-r1/source-freeze.json",
+    "bytes": 833769,
+    "sha256": "5335d52bf94eafbf32b0a499a916e609cefdf357b97247be981796cf14a15d26"
+  },
+  "finalModuleProof": {
+    "file": "reports/review-20261005-completion/native-result-presentation-r1/final-source-integration-r4/final-module-proof-r3.json",
+    "bytes": 13798,
+    "sha256": "231c666a91e4ee92ca5b22c3d6dde4450f0f9f7d186a6a2b60421d67e8ebcaff"
+  },
+  "previousPublicationProvenance": {
+    "path": "evidence/publication-provenance-before-output-contract.json",
+    "sha256": "d82e2a6731dc329f5030295c19e3c5a481e9c317a58164f5cff7f95b8615b07f"
+  },
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "instrumentRightsApproval": "not-performed",
+  "actualBrowserJourney": "pending representative standalone checks",
+  "servedApiGate": "pending current DEV3073; no production claim",
+  "GitHubWrites": 0,
+  "privateApplicationTreeIncluded": false
 }

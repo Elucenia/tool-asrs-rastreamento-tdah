@@ -255,239 +255,6 @@
         "uniqueApiInputCount": 15625,
         "bankRowCount": 15625
       },
-      "cases": [
-        {
-          "index": 0,
-          "input": {
-            "q1": 0,
-            "q2": 0,
-            "q3": 0,
-            "q4": 0,
-            "q5": 0,
-            "q6": 0
-          },
-          "expected": {
-            "raw": {
-              "score": 0
-            }
-          },
-          "passed": true,
-          "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
-          "obtainedByTarget": [
-            {
-              "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            },
-            {
-              "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            },
-            {
-              "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            }
-          ]
-        },
-        {
-          "index": 1,
-          "input": {
-            "q1": 0,
-            "q2": 0,
-            "q3": 0,
-            "q4": 0,
-            "q5": 0,
-            "q6": 1
-          },
-          "expected": {
-            "raw": {
-              "score": 0
-            }
-          },
-          "passed": true,
-          "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
-          "obtainedByTarget": [
-            {
-              "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            },
-            {
-              "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            },
-            {
-              "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            }
-          ]
-        },
-        {
-          "index": 2,
-          "input": {
-            "q1": 0,
-            "q2": 0,
-            "q3": 0,
-            "q4": 0,
-            "q5": 0,
-            "q6": 2
-          },
-          "expected": {
-            "raw": {
-              "score": 0
-            }
-          },
-          "passed": true,
-          "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
-          "obtainedByTarget": [
-            {
-              "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            },
-            {
-              "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            },
-            {
-              "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-              "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-              "runtime": "Node+VM",
-              "acceptedProjection": {
-                "raw": {
-                  "score": 0
-                }
-              },
-              "observedRaw": {
-                "score": 0
-              },
-              "main": [
-                "0",
-                "de 6 itens"
-              ],
-              "passed": true,
-              "excludedPartsAreNotApproved": true
-            }
-          ]
-        }
-      ],
       "sourceExpectation": {
         "file": "reports/review-20261003/source33-accepted-scope-expectations.json",
         "sha256": "c51a745f432eef23771c7e52dea4c8b82f501ce54d3bfe640e449e04883bc907"
@@ -518,10 +285,11 @@
       "clinicalApproval": "not-performed",
       "professionalLanguageApproval": "not-performed",
       "sourceRightsApproval": "not-performed",
-      "fullMethodConformance": "not-performed"
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
     },
     "methodVersion": "ASRSv 1.1/WHO 2005:Parte A 6 itens, limiares específicos, positivo≥4",
-    "implementationVersion": "asrs-rastreamento-tdah@native-2026-10-05-nyu-electronic+56323abc49cd",
+    "implementationVersion": "asrs-rastreamento-tdah@native-2026-10-05+669e0c15fdc7",
     "currentMethodSource": {
       "title": "Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos Versão 1.1 (ASRS-V1.1)",
       "url": "https://license.tov.med.nyu.edu/download/5357",
@@ -699,239 +467,6 @@
           "uniqueApiInputCount": 15625,
           "bankRowCount": 15625
         },
-        "cases": [
-          {
-            "index": 0,
-            "input": {
-              "q1": 0,
-              "q2": 0,
-              "q3": 0,
-              "q4": 0,
-              "q5": 0,
-              "q6": 0
-            },
-            "expected": {
-              "raw": {
-                "score": 0
-              }
-            },
-            "passed": true,
-            "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
-            "obtainedByTarget": [
-              {
-                "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              },
-              {
-                "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              },
-              {
-                "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              }
-            ]
-          },
-          {
-            "index": 1,
-            "input": {
-              "q1": 0,
-              "q2": 0,
-              "q3": 0,
-              "q4": 0,
-              "q5": 0,
-              "q6": 1
-            },
-            "expected": {
-              "raw": {
-                "score": 0
-              }
-            },
-            "passed": true,
-            "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
-            "obtainedByTarget": [
-              {
-                "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              },
-              {
-                "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              },
-              {
-                "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              }
-            ]
-          },
-          {
-            "index": 2,
-            "input": {
-              "q1": 0,
-              "q2": 0,
-              "q3": 0,
-              "q4": 0,
-              "q5": 0,
-              "q6": 2
-            },
-            "expected": {
-              "raw": {
-                "score": 0
-              }
-            },
-            "passed": true,
-            "comparisonScope": "Only explicit acceptedProjection; raw/fullmethod fields not silently approved",
-            "obtainedByTarget": [
-              {
-                "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              },
-              {
-                "file": "apps/dashboard/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              },
-              {
-                "file": "apps/command-center/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-                "sha256": "ffc0322b8490a46961120ef425a1a03ef80cc439d9dae7520dc5bf06e6330ad4",
-                "runtime": "Node+VM",
-                "acceptedProjection": {
-                  "raw": {
-                    "score": 0
-                  }
-                },
-                "observedRaw": {
-                  "score": 0
-                },
-                "main": [
-                  "0",
-                  "de 6 itens"
-                ],
-                "passed": true,
-                "excludedPartsAreNotApproved": true
-              }
-            ]
-          }
-        ],
         "sourceExpectation": {
           "file": "reports/review-20261003/source33-accepted-scope-expectations.json",
           "sha256": "c51a745f432eef23771c7e52dea4c8b82f501ce54d3bfe640e449e04883bc907"
@@ -962,12 +497,13 @@
         "clinicalApproval": "not-performed",
         "professionalLanguageApproval": "not-performed",
         "sourceRightsApproval": "not-performed",
-        "fullMethodConformance": "not-performed"
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
       },
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb",
+      "implementationHash": "669e0c15fdc7dd3e7050e923389abb21917a237d09c8c10f9ffecd573b9123e1",
       "officialPublishedFormSource": {
         "title": "Escala de Auto-Avaliação para o Diagnóstico do Transtorno de Déficit de Atenção/Hiperatividade em Adultos Versão 1.1 (ASRS-V1.1)",
         "url": "https://license.tov.med.nyu.edu/download/5357",
@@ -975,7 +511,35 @@
         "checkedAt": "2026-10-05",
         "access": "Nine original PDFs read and visually compared"
       },
-      "electronicConversion": "literal NYU-published form; Arabic unshaded source retained; Japanese timeframe operational supplement separated"
+      "electronicConversion": "literal NYU-published form; Arabic unshaded source retained; Japanese timeframe operational supplement separated",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "asrs-rastreamento-tdah@native-2026-10-05-nyu-electronic+56323abc49cd",
+          "previousImplementationHash": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb",
+          "implementationHash": "669e0c15fdc7dd3e7050e923389abb21917a237d09c8c10f9ffecd573b9123e1",
+          "scientificBodySha256": "ad4043107713e459eb278f6ad9236a50dce8f4992eddddacdd3ab76a69ae9d30",
+          "metadataContractHash": "565baa6f9f56369feb689fa89530e1777dc29fbc370864674d189af072f9422a",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Rastreamento de TDAH no adulto. A Parte A de seis itens deve ser distinguida do questionário de 18 itens e da entrevista diagnóstica. Resultado positivo indica necessidade de avaliação clínica; a amostra de recalibração e a adaptação portuguesa não validam automaticamente esta implementação em todos os idiomas.",
     "sourceLimitEvidence": {
@@ -1110,20 +674,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/asrs-rastreamento-tdah/calculator.js",
-    "bytes": 6176,
-    "sha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb"
+    "bytes": 6381,
+    "sha256": "669e0c15fdc7dd3e7050e923389abb21917a237d09c8c10f9ffecd573b9123e1"
   },
-  "sourceToolSha256": "c9f8fadd6c482c67bfac06b03929e737783b826f1e354ebfca5a9ab97ebcb216",
+  "sourceToolSha256": "4fd6448b543da52caaad602a717aca2e73861cb2ce2729789d4498b0bb7d32d6",
   "omittedFullReferenceBanks": [
     {
       "rows": 3,
       "sha256": "573281f98c7d7dcfd78466e2efc3d9215c27a4e761a1b556c0f385e6523cc672",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 3,
       "sha256": "573281f98c7d7dcfd78466e2efc3d9215c27a4e761a1b556c0f385e6523cc672",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

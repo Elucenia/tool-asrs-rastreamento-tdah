@@ -1,5 +1,7 @@
 # ASRS v1.1 (rastreamento de TDAH no adulto)
 
+ELUCENIA · Felipe Guedes. Self-contained per-tool calculation and demonstration.
+
 ## Documentation in ten languages
 
 - [Português (Brasil)](documentation/pt-BR.md) · [ELUCENIA](https://elucenia.org/pt-br/ferramentas/asrs-rastreamento-tdah)
@@ -15,21 +17,20 @@
 
 The README introduction is in English; the linked usage, field, method, limits, source and review documentation is available in each listed language. Bibliographic titles and schema identifiers retain their source identity.
 
+## Local use and tests
 
-# ASRS v1.1 six-question screener: exact published forms
+Serve this directory with a static HTTP server and open index.html. All calculation and presentation run locally; no remote calculation API, account, dependency install, application source tree or database is required. Node: `require("./calculator.js").calculate(input)`. Run `npm test` for original reference and refusal tests, source-output preservation and presentation in all ten languages. Tests verify the immutable package and write no files.
 
-© New York University and the President and Fellows of Harvard College.
+## Edition and current implementation
 
-© New York University and President and Fellows of Harvard College. All rights reserved.
+Method: ASRSv 1.1/WHO 2005:Parte A 6 itens, limiares específicos, positivo≥4
 
-Owner source: https://license.tov.med.nyu.edu/product/asrs6Qscreener
+Implementation: `asrs-rastreamento-tdah@native-2026-10-05+669e0c15fdc7`. The mathematical body, inputs, formula and original numeric references are unchanged. The existing verdict, level, note and detail rows are exposed without adding a threshold or recommendation. The browser demonstration uses the same pinned pure presentation helpers and whole-source, per-tool templates as the platform. Ten authorial interface and documentation editions are included; an unknown clinical phrase keeps explicit source-language attribution.
 
-The six-question screener is available for clinical and nonclinical use, including commercial use, with attribution. Electronic conversion is permitted; other modifications are not permitted.
+## Evidence and limits
 
-This package is a literal electronic conversion of nine NYU-published forms. Question text, ordered response options and original source instructions are retained; line-wrap whitespace is normalized. Eight forms retain their two levels of shading. The downloaded Arabic form has an unshaded matrix, which is reproduced without inventing source shading; its contradictory shading instruction is retained, and numeric threshold logic is documented separately from the original form. The published Japanese PDF has no six-month instruction; a separate Japanese operational note identifies the English-source reference period. The Hindi interface explicitly presents the English original with English language metadata and a Hindi limitation notice. It is not an approved or source-verified Hindi instrument.
+`source-result-contract.json` records the output-preservation comparison against the same historical method. `documented-result-examples.json` records rendering of those synthetic outputs; neither is an independent clinical oracle. `publication-provenance.json` pins current code, source identity, translations and their independent static review. Historical served proofs remain in evidence with their original revision. Separate current DEV API and representative standalone browser checks are required before publication; no production or clinical approval is inferred.
 
-All nine complete original PDFs are included intact in original/. Existing remote LICENSE/NOTICE and seven procedural/attribution files remain byte-exact. Apache and MIT software licenses do not license instrument modifications. The owner attribution and restrictions above remain applicable. Internal PDF extraction and model visual transcription comparison do not represent independent clinical or professional language approval.
+## Sources and component licences
 
-## Use and reproduce
-
-Open index.html to use the tool locally; no external service is required. The electronic form has native radio inputs, original source language and source-specific matrix appearance. Run `node test.cjs` or `npm test` for reference cases, schema refusals, Node/browser VM parity, literal source-form comparisons and all 15,625 response combinations. Tests only read package files. Current R7 HTTP evidence is pending and must be attached before a current HTTP publication claim.
+Scientific sources, inputs, units, conditions and formula remain in tool.json and the ten documentation files. The nine original public legal, attribution and policy files are preserved byte for byte. CODE-COMPONENTS.md maps the preserved software licences; SOURCE-RIGHTS-REVIEW.md separates source-specific instrument wording, questionnaires, datasets and translation conditions. Software tests and software licences do not establish whole-instrument permission, official endorsement, clinical validation or professional language approval.

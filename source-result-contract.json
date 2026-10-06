@@ -1,0 +1,242 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "asrs-rastreamento-tdah",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "99b6cd26065d88dbce865de98d1084e65b15a58c",
+    "oldEngineSha256": "56323abc49cd8872d98f6fed71a8f21a7b1e4d762a8eaa436e8fa1da7ea4a6cb",
+    "currentEngineSha256": "669e0c15fdc7dd3e7050e923389abb21917a237d09c8c10f9ffecd573b9123e1"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+      "input": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "2",
+        "q5": "2",
+        "q6": "2"
+      },
+      "publicOutput": {
+        "id": "asrs-rastreamento-tdah",
+        "main": [
+          "3",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "raw": {
+          "score": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 3
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "level": "low",
+        "verdict": "Rastreamento negativo",
+        "note": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+        "raw": {
+          "score": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+      "input": {
+        "q1": "2",
+        "q2": "2",
+        "q3": "2",
+        "q4": "3",
+        "q5": "1",
+        "q6": "0"
+      },
+      "publicOutput": {
+        "id": "asrs-rastreamento-tdah",
+        "main": [
+          "4",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "raw": {
+          "score": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 4
+        },
+        "level": "high",
+        "verdict": "positivo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "level": "high",
+        "verdict": "Rastreamento positivo: sintomas compatíveis com TDAH no adulto",
+        "note": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+        "raw": {
+          "score": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Todos “raramente”: 0",
+      "input": {
+        "q1": "1",
+        "q2": "1",
+        "q3": "1",
+        "q4": "1",
+        "q5": "1",
+        "q6": "1"
+      },
+      "publicOutput": {
+        "id": "asrs-rastreamento-tdah",
+        "main": [
+          "0",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 0
+        },
+        "level": "low",
+        "verdict": "negativo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "level": "low",
+        "verdict": "Rastreamento negativo",
+        "note": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+        "raw": {
+          "score": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Todos “muito frequentemente”: 6",
+      "input": {
+        "q1": "4",
+        "q2": "4",
+        "q3": "4",
+        "q4": "4",
+        "q5": "4",
+        "q6": "4"
+      },
+      "publicOutput": {
+        "id": "asrs-rastreamento-tdah",
+        "main": [
+          "6",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "raw": {
+          "score": 6
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 6
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "6",
+          "de 6 itens"
+        ],
+        "label": "Itens na faixa sombreada",
+        "level": "high",
+        "verdict": "Rastreamento positivo: sintomas compatíveis com TDAH no adulto",
+        "note": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+        "raw": {
+          "score": 6
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

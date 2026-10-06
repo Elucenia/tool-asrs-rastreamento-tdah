@@ -116,6 +116,38 @@ Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubbli
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
 
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Screening negativo
+
+Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).
+
+
+### 2
+
+Screening positivo: sintomi compatibili con ADHD nell'adulto
+
+Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).
+
+
+### 3
+
+Screening negativo
+
+Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).
+
+
+### 4
+
+Screening positivo: sintomi compatibili con ADHD nell'adulto
+
+Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).
+
+
 
 ---
 

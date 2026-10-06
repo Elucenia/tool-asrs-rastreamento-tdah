@@ -116,6 +116,38 @@ Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los ins
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
 
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Tamizaje negativo
+
+Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).
+
+
+### 2
+
+Tamizaje positivo: síntomas compatibles con TDAH en adultos
+
+Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).
+
+
+### 3
+
+Tamizaje negativo
+
+Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).
+
+
+### 4
+
+Tamizaje positivo: síntomas compatibles con TDAH en adultos
+
+Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).
+
+
 
 ---
 

@@ -116,6 +116,38 @@ Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, t
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
 
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Negative screening
+
+Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).
+
+
+### 2
+
+Positive screening: symptoms compatible with adult ADHD
+
+Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).
+
+
+### 3
+
+Negative screening
+
+Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).
+
+
+### 4
+
+Positive screening: symptoms compatible with adult ADHD
+
+Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).
+
+
 
 ---
 

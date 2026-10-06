@@ -1,0 +1,707 @@
+{
+  "id": "asrs-rastreamento-tdah",
+  "implementationVersion": "asrs-rastreamento-tdah@native-2026-10-05+669e0c15fdc7",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento negativo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento positivo: sintomas compatíveis com TDAH no adulto",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento negativo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rastreamento positivo: sintomas compatíveis com TDAH no adulto",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negative screening",
+            "locale": "en",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).",
+            "locale": "en",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positive screening: symptoms compatible with adult ADHD",
+            "locale": "en",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).",
+            "locale": "en",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negative screening",
+            "locale": "en",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).",
+            "locale": "en",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positive screening: symptoms compatible with adult ADHD",
+            "locale": "en",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Screening instrument: does not make a diagnosis. ADHD requires clinical evaluation (onset in childhood, impairment in more than one setting, and exclusion of other causes).",
+            "locale": "en",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Tamizaje negativo",
+            "locale": "es",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).",
+            "locale": "es",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Tamizaje positivo: síntomas compatibles con TDAH en adultos",
+            "locale": "es",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).",
+            "locale": "es",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Tamizaje negativo",
+            "locale": "es",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).",
+            "locale": "es",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Tamizaje positivo: síntomas compatibles con TDAH en adultos",
+            "locale": "es",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Instrumento de tamizaje: no establece un diagnóstico. El TDAH requiere evaluación clínica (inicio en la infancia, deterioro en más de un contexto y exclusión de otras causas).",
+            "locale": "es",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage négatif",
+            "locale": "fr",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).",
+            "locale": "fr",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage positif : symptômes compatibles avec un TDAH chez l’adulte",
+            "locale": "fr",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).",
+            "locale": "fr",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage négatif",
+            "locale": "fr",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).",
+            "locale": "fr",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Dépistage positif : symptômes compatibles avec un TDAH chez l’adulte",
+            "locale": "fr",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).",
+            "locale": "fr",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negatives Screening",
+            "locale": "de",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).",
+            "locale": "de",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positives Screening: mit ADHS im Erwachsenenalter vereinbare Symptome",
+            "locale": "de",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).",
+            "locale": "de",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Negatives Screening",
+            "locale": "de",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).",
+            "locale": "de",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Positives Screening: mit ADHS im Erwachsenenalter vereinbare Symptome",
+            "locale": "de",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Screening-Instrument: stellt keine Diagnose. ADHS erfordert eine klinische Beurteilung (Beginn in der Kindheit, Beeinträchtigung in mehr als einem Kontext und Ausschluss anderer Ursachen).",
+            "locale": "de",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening negativo",
+            "locale": "it",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).",
+            "locale": "it",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening positivo: sintomi compatibili con ADHD nell'adulto",
+            "locale": "it",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).",
+            "locale": "it",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening negativo",
+            "locale": "it",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).",
+            "locale": "it",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Screening positivo: sintomi compatibili con ADHD nell'adulto",
+            "locale": "it",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "Strumento di screening: non pone una diagnosi. L'ADHD richiede una valutazione clinica (esordio nell'infanzia, compromissione in più di un contesto ed esclusione di altre cause).",
+            "locale": "it",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي سلبي",
+            "locale": "ar",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. يتطلب اضطراب فرط الحركة وتشتت الانتباه تقييماً سريرياً (بدء الأعراض في الطفولة، وتأثراً في أكثر من سياق، واستبعاد الأسباب الأخرى).",
+            "locale": "ar",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي إيجابي: أعراض متوافقة مع اضطراب فرط الحركة وتشتت الانتباه لدى البالغين",
+            "locale": "ar",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. يتطلب اضطراب فرط الحركة وتشتت الانتباه تقييماً سريرياً (بدء الأعراض في الطفولة، وتأثراً في أكثر من سياق، واستبعاد الأسباب الأخرى).",
+            "locale": "ar",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي سلبي",
+            "locale": "ar",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. يتطلب اضطراب فرط الحركة وتشتت الانتباه تقييماً سريرياً (بدء الأعراض في الطفولة، وتأثراً في أكثر من سياق، واستبعاد الأسباب الأخرى).",
+            "locale": "ar",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "تحرّي إيجابي: أعراض متوافقة مع اضطراب فرط الحركة وتشتت الانتباه لدى البالغين",
+            "locale": "ar",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "أداة تحرّي: لا تُشخِّص. يتطلب اضطراب فرط الحركة وتشتت الانتباه تقييماً سريرياً (بدء الأعراض في الطفولة، وتأثراً في أكثر من سياق، واستبعاد الأسباب الأخرى).",
+            "locale": "ar",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阴性",
+            "locale": "zh",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。ADHD 需要临床评估（儿童期起病、在多个情境中受损，以及排除其他原因）。",
+            "locale": "zh",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阳性：与成人 ADHD 相符的症状",
+            "locale": "zh",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。ADHD 需要临床评估（儿童期起病、在多个情境中受损，以及排除其他原因）。",
+            "locale": "zh",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阴性",
+            "locale": "zh",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。ADHD 需要临床评估（儿童期起病、在多个情境中受损，以及排除其他原因）。",
+            "locale": "zh",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "筛查阳性：与成人 ADHD 相符的症状",
+            "locale": "zh",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "筛查工具：不能作出诊断。ADHD 需要临床评估（儿童期起病、在多个情境中受损，以及排除其他原因）。",
+            "locale": "zh",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陰性",
+            "locale": "ja",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "スクリーニング用ツールであり、診断は行いません。ADHD には臨床評価が必要です（小児期発症、複数の状況での機能障害、他の原因の除外）。",
+            "locale": "ja",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陽性：成人ADHDに一致する症状",
+            "locale": "ja",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "スクリーニング用ツールであり、診断は行いません。ADHD には臨床評価が必要です（小児期発症、複数の状況での機能障害、他の原因の除外）。",
+            "locale": "ja",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陰性",
+            "locale": "ja",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "スクリーニング用ツールであり、診断は行いません。ADHD には臨床評価が必要です（小児期発症、複数の状況での機能障害、他の原因の除外）。",
+            "locale": "ja",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "スクリーニング陽性：成人ADHDに一致する症状",
+            "locale": "ja",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "スクリーニング用ツールであり、診断は行いません。ADHD には臨床評価が必要です（小児期発症、複数の状況での機能障害、他の原因の除外）。",
+            "locale": "ja",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Todos “algumas vezes”: só itens 1 a 3 contam, 3 (negativo)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्क्रीनिंग नकारात्मक",
+            "locale": "hi",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: यह निदान नहीं करता। ADHD के लिए नैदानिक मूल्यांकन आवश्यक है (बचपन में शुरुआत, एक से अधिक संदर्भों में हानि, और अन्य कारणों का बहिष्करण).",
+            "locale": "hi",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Itens 1 a 3 “algumas vezes” e item 4 “frequentemente”: 4 (positivo, limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्क्रीनिंग सकारात्मक: वयस्क ADHD के अनुरूप लक्षण",
+            "locale": "hi",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: यह निदान नहीं करता। ADHD के लिए नैदानिक मूल्यांकन आवश्यक है (बचपन में शुरुआत, एक से अधिक संदर्भों में हानि, और अन्य कारणों का बहिष्करण).",
+            "locale": "hi",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Todos “raramente”: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्क्रीनिंग नकारात्मक",
+            "locale": "hi",
+            "template": "documented-authored-84e012f904c31c6235e2"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: यह निदान नहीं करता। ADHD के लिए नैदानिक मूल्यांकन आवश्यक है (बचपन में शुरुआत, एक से अधिक संदर्भों में हानि, और अन्य कारणों का बहिष्करण).",
+            "locale": "hi",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Todos “muito frequentemente”: 6",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "स्क्रीनिंग सकारात्मक: वयस्क ADHD के अनुरूप लक्षण",
+            "locale": "hi",
+            "template": "documented-authored-58b985d3d5b92f7e90de"
+          },
+          "note": {
+            "text": "स्क्रीनिंग उपकरण: यह निदान नहीं करता। ADHD के लिए नैदानिक मूल्यांकन आवश्यक है (बचपन में शुरुआत, एक से अधिक संदर्भों में हानि, और अन्य कारणों का बहिष्करण).",
+            "locale": "hi",
+            "template": "documented-authored-a77ac7c95f0e409827d9"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

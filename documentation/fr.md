@@ -116,6 +116,38 @@ Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les inst
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
 
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Dépistage négatif
+
+Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).
+
+
+### 2
+
+Dépistage positif : symptômes compatibles avec un TDAH chez l’adulte
+
+Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).
+
+
+### 3
+
+Dépistage négatif
+
+Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).
+
+
+### 4
+
+Dépistage positif : symptômes compatibles avec un TDAH chez l’adulte
+
+Instrument de dépistage : ne pose pas de diagnostic. Le TDAH nécessite une évaluation clinique (début dans l’enfance, retentissement dans plus d’un contexte et exclusion d’autres causes).
+
+
 
 ---
 

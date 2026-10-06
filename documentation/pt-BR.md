@@ -116,6 +116,38 @@ Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicaç�
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
 
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Rastreamento negativo
+
+Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).
+
+
+### 2
+
+Rastreamento positivo: sintomas compatíveis com TDAH no adulto
+
+Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).
+
+
+### 3
+
+Rastreamento negativo
+
+Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).
+
+
+### 4
+
+Rastreamento positivo: sintomas compatíveis com TDAH no adulto
+
+Instrumento de rastreamento: não faz diagnóstico. TDAH exige avaliação clínica (início na infância, prejuízo em mais de um contexto e exclusão de outras causas).
+
+
 
 ---
 
